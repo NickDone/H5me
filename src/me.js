@@ -5,15 +5,15 @@ var Lxdme=function (obj){
 	
 	this.count=obj.count|6;
 	
-	this.r=Math.max(this.width,this.height)/this.count/2;
+	this.r=Math.max(this.width,this.height)/this.count/3.5;
 	
-	 	
+	this.chooseType=["资料","相册","日志","留言","作品","心情"];
 }
 
 
 Lxdme.prototype.initDom=function(){
 	var stage=document.createElement('div');
-	var str='<canvas id="canvas" width="'+this.width+'" height="'+this.height+'" style="background-color: #305066;display: inline-block;"></canvas>';
+	var str='<canvas id="canvas" width="'+this.width+'" height="'+this.height+'" style="display: inline-block;"></canvas>';
 	stage.setAttribute('style','position: absolute;top:0;left:0;right:0;bottom:0;');
 	stage.innerHTML=str;
 	document.body.appendChild(stage);
@@ -22,25 +22,29 @@ Lxdme.prototype.initDom=function(){
 
 Lxdme.prototype.initArrPop=function(){
 	for( i=0;i<this.count;i++){
+		var randomDirX=Math.random()*10>5?1:-1;
+		var randomDirY=Math.random()*10>5?1:-1;
 		var tmp={};
 		var color = (Math.random() * 0xFFFFFF << 0).toString(16);
 		while (color.length < 6) {
 	            color = 0 + color;
 		}
 		if(this.width>this.height){
-			tmp.x=this.r+i*this.r*2;
-			tmp.y=this.r+Math.random()*(this.height-2*this.r);
+			tmp.x=this.r+i*this.r*3;
+			tmp.y=this.r+Math.random()*(this.height-2*this.r)+i;
 			tmp.r=this.r;
-			tmp.dirX=1;
-			tmp.dirY=1;
+			tmp.dirX=randomDirX;
+			tmp.dirY=randomDirY;
 			tmp.color="#"+color;
+			tmp.text=this.chooseType[i];
 		}else{
 			tmp.y=this.r+i*this.r*2;
-			tmp.x=this.r+Math.random()*(this.width-2*this.r);
+			tmp.x=this.r+Math.random()*(this.width-2*this.r)+i;
 			tmp.r=this.r;
-			tmp.dirX=1;
-			tmp.dirY=1;
+			tmp.dirX=randomDirX;
+			tmp.dirY=randomDirY;
 			tmp.color="#"+color;
+			tmp.text=this.chooseType[i];
 		}		
 		this.arrPop.push(tmp);
 	}
@@ -56,7 +60,7 @@ Lxdme.prototype.init=function(){
 	this.initArrPop();
 	this.drawArrPop();
 	this.startPop();
-	//this.drawPop({x:47,y:47,r:43});
+	
 }
 
 Lxdme.prototype.drawPop=function(obj){
@@ -67,11 +71,18 @@ Lxdme.prototype.drawPop=function(obj){
 	
 	this.ctx.globalAlpha= (Math.sin(0.8) + 1) / 2;  
 	this.ctx.strokeStyle="#305069";
-	
 	this.ctx.fillStyle=gradient;
+	
 	this.ctx.beginPath();
     this.ctx.arc(obj.x,obj.y,obj.r,0,Math.PI*2,true);
 	this.ctx.fill();
+	this.ctx.stroke();
+	this.ctx.closePath();
+	this.ctx.beginPath();
+	this.ctx.font=this.r/2+"pt SimHei";
+	
+	this.ctx.fillStyle="white";
+	this.ctx.fillText(obj.text,obj.x-obj.r/1.7,obj.y+obj.r/4);
 	
 	this.ctx.stroke();
 	this.ctx.closePath();
@@ -89,27 +100,29 @@ Lxdme.prototype.dancePop=function(){
 	var maxDistance=this.r*2;
 	var perPix=2;
 	for(i=0;i<this.count;i++){
-		x=this.arrPop[i].x;
-		y=this.arrPop[i].y;
-		count=0;
+		var x=this.arrPop[i].x;
+		var y=this.arrPop[i].y;
+		var count=0;
+		var newX=this.arrPop[i].x+perPix*this.arrPop[i].dirX;
+		var newY=this.arrPop[i].y+perPix*this.arrPop[i].dirY;
+		var maxX=this.width-this.r;
+		var maxY=this.height-this.r;
+			
 		for(j=0;j<this.count;j++){
 			dx=x+perPix*this.arrPop[i].dirX-this.arrPop[j].x;
 			dy=y+perPix*this.arrPop[i].dirY-this.arrPop[j].y;
-				
 			var distance=Math.sqrt(dx*dx+dy*dy);
 			
-			var newX=this.arrPop[i].x+perPix*this.arrPop[i].dirX;
-			var newY=this.arrPop[i].y+perPix*this.arrPop[i].dirY;
 			if(i==j){
 				continue;
 			}else if(distance<= maxDistance){
 				this.arrPop[i].dirX*=-1;
 				this.arrPop[i].dirY*=-1;
 				break;
-			}else if(newX>=this.width-this.r||newX<=this.r){
+			}else if(newX>=maxX||newX<=this.r){
 				this.arrPop[i].dirX*=-1;
 			
-			}else if(newY>=this.height-this.r||newY<=this.r){
+			}else if(newY>=maxY||newY<=this.r){
 				this.arrPop[i].dirY*=-1;
 			}
 			count++;

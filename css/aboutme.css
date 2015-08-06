@@ -1,0 +1,11 @@
+body{
+	text-align:center;
+}
+
+#myInfo{
+	border:1px solid black;
+	width:1366px;
+	height:768px;
+	margin: auto;
+	
+}
