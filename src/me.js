@@ -8,6 +8,13 @@ var Lxdme=function (obj){
 	this.r=Math.max(this.width,this.height)/this.count/3.5;
 	
 	this.chooseType=["资料","相册","日志","留言","作品","心情"];
+	
+	this.colors=["#CB9998","#FEFF99","#FE9900"
+				,"#666698","#FEFF01","#0099CB"
+				,"#FD6766","#019934","#98CB00"
+				,"#02979B","#FF6600","#0066CA"
+				,"#FFFF00","#339933","#FE0032"
+				]
 }
 
 
@@ -25,7 +32,7 @@ Lxdme.prototype.initArrPop=function(){
 		var randomDirX=Math.random()*10>5?1:-1;
 		var randomDirY=Math.random()*10>5?1:-1;
 		var tmp={};
-		var color = (Math.random() * 0xFFFFFF << 0).toString(16);
+		var color = this.colors[Math.floor((Math.random() * 15))];
 		while (color.length < 6) {
 	            color = 0 + color;
 		}
@@ -35,7 +42,7 @@ Lxdme.prototype.initArrPop=function(){
 			tmp.r=this.r;
 			tmp.dirX=randomDirX;
 			tmp.dirY=randomDirY;
-			tmp.color="#"+color;
+			tmp.color=color;
 			tmp.text=this.chooseType[i];
 		}else{
 			tmp.y=this.r+i*this.r*2;
@@ -43,7 +50,7 @@ Lxdme.prototype.initArrPop=function(){
 			tmp.r=this.r;
 			tmp.dirX=randomDirX;
 			tmp.dirY=randomDirY;
-			tmp.color="#"+color;
+			tmp.color=color;
 			tmp.text=this.chooseType[i];
 		}		
 		this.arrPop.push(tmp);
@@ -65,12 +72,12 @@ Lxdme.prototype.init=function(){
 
 Lxdme.prototype.drawPop=function(obj){
 	var gradient=this.ctx.createRadialGradient(obj.x-obj.r/2,obj.y-obj.r/2,obj.r/7,obj.x,obj.y,obj.r*1.3);
-	
 	gradient.addColorStop(1,obj.color);
-	gradient.addColorStop(0,'white');
+	
+	gradient.addColorStop(0,obj.color);
 	
 	this.ctx.globalAlpha= (Math.sin(0.8) + 1) / 2;  
-	this.ctx.strokeStyle="#305069";
+	this.ctx.strokeStyle="transparent";
 	this.ctx.fillStyle=gradient;
 	
 	this.ctx.beginPath();

@@ -1,0 +1,9 @@
+body{
+	text-align:center;
+	background-image: -webkit-linear-gradient(left,#00C6FC 0%,#FFFFFF 180% );  
+	background-image:-moz-linear-gradient(left,#00C6FC 0%,#FFFFFF 180% );  
+	background-image: -ms-linear-gradient(left,#00C6FC 0%,#FFFFFF 180% );  
+    background-image: linear-gradient(left,#00C6FC 0%,#FFFFFF 180% );  
+	
+	cursor:pointer  ;
+	}
