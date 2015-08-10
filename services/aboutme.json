@@ -1,0 +1,37 @@
+{
+ 
+    "aboutmedata": [
+        {
+            "title": "我是",
+            "conternt": "My Name Is Lixiaodong ，My Chinese Name IS 李小冬 "
+        },
+        {
+            "title": "来自于",
+            "conternt": "中国 深圳"
+        },
+        {
+            "name": "喜欢做什么",
+            "url": "打球 听歌 看电影 玩游戏 写代码"
+        }
+,
+        {
+            "name": "喜欢谁",
+            "url": "当然是那个她咯"
+        }
+,
+        {
+            "name": "今年几岁啊",
+            "url": "就快24啦"
+        }
+,
+        {
+            "name": "觉得自己怎么样",
+            "url": "想要说，哎呦 ，不错哦"
+        }
+,
+        {
+            "name": "想结婚吗",
+            "url": "想"
+        }
+    ]
+}

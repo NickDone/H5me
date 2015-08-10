@@ -1,11 +1,5 @@
-body{
-	text-align:center;
-	
-	background:rgba(0,222,223,0.1);
-	
-}
 
-#myInfo{
+#myInfoContent{
 	margin:40px auto;
 	width:960px;
 	height:auto;
@@ -14,16 +8,6 @@ body{
 	background-image:-moz-linear-gradient(left,#00C6FC 0%,#FFFFFF 180% );  
 	background-image: -ms-linear-gradient(left,#00C6FC 0%,#FFFFFF 180% );  
     background-image: linear-gradient(left,#00C6FC 0%,#FFFFFF 180% );  
-}
-
-#menu{
-	margin-top:-40px;
-	margin-left:-10px;
-	width:100%;
-	height:46px;
-	
-	position:fixed;
-	background:black;
 }
 
 #top{
@@ -40,15 +24,35 @@ body{
 	border-radius:150px;
 	
 }
-
-
-#myinfo  li{	
+#myinfo ul{
+	border:1px solid transparent;
+	margin:10px 0px 10px 0px;
+}
+#myinfo li{
+	font-family:"黑体";
+	color:white;	
 	border:1px solid  white;
 	list-style:none;
-	height:40px;
+	height:60px;
 	width:90%;
-	margin-top:20px;
-	-webkit-border-radius:20px;
-	-moz-border-radius:20px;
-	
+	margin:10px 0px 10px 0px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	border-radius:30px;	
 }
+
+#myinfo li span:nth-child(1){
+	/*border:1px solid red;*/
+	float:left;
+	font-size:25px;
+	line-height:60px;
+	margin:0px 20px 0px 10px;
+}
+#myinfo li span:nth-child(2){
+	/*border:1px solid red;*/
+	line-height:30px;
+	height:60px;
+	display:block;
+	overflow:hidden;
+}
+
