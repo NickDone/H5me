@@ -17,40 +17,40 @@ lxdApp.service('httpService',['$http','$q',function($http,$q){
 		$http.get(url).success(
 			function(response,status){
 				checkAccess(status);
-				deferred.resolve(response);
+				defferd.resolve(response);
 			}
 		).error(function(response,status){
 				checkAccess(status);
-				deferred.resolve('error!');
+				defferd.resolve('error!');
 		});
 		return defferd.promise;
 	}
 	
 	this.post=function(scope,url,postdata){
-		var deffered=$q.defer();
+		var defferd=$q.defer();
 		$http.post(url,postdata).success(
 			function(response,status){
 				checkAccess(status);
-				deffered.resolve(response);
+				defferd.resolve(response);
 			}
 		).error(function(response,status){
 				checkAccess(status);
-				deffered.resolve(response);
+				defferd.resolve(response);
 			
 		});
 		return deffered.promise;
 	}
 	
 	this.put=function(scope,url,postdata){
-		var deffered=$q.defer();
+		var defferd=$q.defer();
 		$http.put(url,postdata).success(
 			function(response,status){
 				checkAccess(status);
-				deffered.resolve(response);
+				defferd.resolve(response);
 			}
 		).error(function(response,status){
 				checkAccess(status);
-				deffered.resolve(response);
+				defferd.resolve(response);
 			
 		});
 		return deffered.promise;
@@ -60,26 +60,26 @@ lxdApp.service('httpService',['$http','$q',function($http,$q){
 		var defferd=$q.defer();
 		$http['delete'](url).success(function(response,status){
 			checkAccess(status);
-			deferred.resolve(response);
+			defferd.resolve(response);
 		}).error(function(response,status){
 			checkAccess(status);
-			deferred.resolve('error!');
+			defferd.resolve('error!');
 		});
 		
 		return deferred.promise;	
 	}
 	
 	this.jsonp = function(scope, url){
-		var deferred = $q.defer();
+		var defferd = $q.defer();
 		url += '?format=jsonp&callback=JSON_CALLBACK';
-		$http.jsonp(url).success(function(response){
+		$http.get(url).success(function(response){
 			
-			deferred.resolve(response);
+			defferd.resolve(response);
 		}).error(function(response){
 			
-			deferred.resolve('error!');
+			defferd.resolve('error!');
 		});
-		return deferred.promise;
+		return defferd.promise;
 	};
 	
 }])

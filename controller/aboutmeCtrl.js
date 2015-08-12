@@ -1,11 +1,25 @@
-lxdApp.controller('aboutmeCtrl',['meInfoService',function($scope,meInfoService){
+lxdApp.controller('aboutmeCtrl',['$scope','meInfoService','httpService','appColors',function($scope,meInfoService,httpService,appColors){
 	
-	meInfoService.aboutmeInfo().then(function(data){
+	meInfoService.meInfo().then(function(data){
+		console.log(data);
+		var infocontent=document.createElement("ul");
 		
-		document.writeln(data);
+		angular.forEach(data,function(value,key){
+			var listelement=document.createElement("li");
+			listelement.className="infolist";
+			listelement.style.background=appColors[Math.floor(Math.random()*appColors.length)];
+			listelement.style.color="#272822";
+			listelement.innerHTML="<span>"+
+							value.title
+						+"</span><span>"+
+							value.content
+						+"</span>";
+			infocontent.appendChild(listelement);			
+		});
 		
-	});
+		$("#myinfo").append(infocontent);
+	})
 	
-	document.writeln("hello");
+	//document.writeln("hello");
 		
 }]);

@@ -1,9 +1,9 @@
 
 lxdApp.service('meInfoService',['httpService',function(httpService){
 	
-	this.meInfo=function(){
+	this.meInfo=function(scope){
 		
-		return httpService.jsonp('aboutme.json');
+		return httpService.get(scope,'http://127.0.0.1/H5me/ServerServices/aboutme.php');
 	}
 	
 }])
