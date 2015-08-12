@@ -17,7 +17,6 @@ var Lxdme=function (obj){
 				]
 }
 
-
 Lxdme.prototype.initDom=function(){
 	var stage=document.createElement('div');
 	var str='<canvas id="canvas" width="'+this.width+'" height="'+this.height+'" style="display: inline-block;"></canvas>';
