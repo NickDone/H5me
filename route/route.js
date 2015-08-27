@@ -4,9 +4,17 @@ lxdApp.config(['$routeProvider',function($routeProvider){
 			templateUrl:'lixiaodong.html',
 			controller:'lixiaodongCtrl'
 		})
+		.when('/dairy',{
+			templateUrl:'dairy.html',
+			controller:'dairyCtrl'
+		})
 		.when('/aboutme',{
 			templateUrl:'aboutme.html',
 			controller:'aboutmeCtrl'
+		})
+		.when('/dairydetails',{
+			templateUrl:'dairydetails.html',
+			controller:'dairydetailsCtrl'
 		})
 		.when('/',{
 			template:" hello world",

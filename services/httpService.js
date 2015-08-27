@@ -1,27 +1,45 @@
-function checkAccess(status)
-{
+
+
+lxdApp.service('httpService',['$http','$q','$location','$timeout', '$interval',function($http,$q,$location,$timeout, $interval){
+	
+	var service = {
+		token:"",
+		delay:10,
+		sessionid:''
+	};
+
+	var intervalID = null;
+
+	function clearInterval(){
+		if (intervalID)
+			$interval.cancel(intervalID);
+	};
+
+	function checkAccess(status)
+	{
 		if(status == 401 ||  status == 403 )
 		{
 			if(status == 401)
 			{
-				
+				clearInterval();
 			}
 			$location.path("/index");
 		}
-}
+	}
 
-lxdApp.service('httpService',['$http','$q',function($http,$q){
 	
 	this.get=function(scope,url){
 		var defferd=$q.defer();
-		$http.get(url).success(
+		$http.get(url,{cache:false}).success(
 			function(response,status){
 				checkAccess(status);
 				defferd.resolve(response);
+				
 			}
 		).error(function(response,status){
 				checkAccess(status);
 				defferd.resolve('error!');
+				
 		});
 		return defferd.promise;
 	}

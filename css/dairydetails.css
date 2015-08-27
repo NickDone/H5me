@@ -1,0 +1,156 @@
+a{
+	text-decoration: none;
+	color: #26709A;
+}
+
+.content{
+	border: 1px solid red;
+	margin:47px auto;
+	width:1080px;
+	height:auto;
+	font-size:14px;
+	
+}
+
+.head{
+	border: 1px saddlebrown solid;
+	height:37px;	
+	text-align: left;
+}
+
+.head p{
+	display:inline;
+	border: 1px solid red;
+	margin-left: 15px;
+	font-weight :bold ;
+	line-height: 37px;
+	color:#444444;
+}
+
+.head p:nth-child(2){
+	/*float: right;*/
+	margin-left: 80%;
+	margin-right: 0px;
+}
+
+
+.title{
+	border: 1px crimson solid;
+	height: 45px;
+	text-align: left;
+}
+.title p{
+	display: inline;
+}
+
+.title p:nth-child(1){
+	font-size:30px;
+	font-weight: bold;
+	color:#444444;
+	padding-right: 40px;
+}
+
+.operate{
+	border: 1px solid red;
+	height: 40px;	
+	text-align: left;
+}
+
+.operate span{
+	margin:0px 10px 0 10px;
+	font
+}
+
+.dairycontent{
+	margin-bottom: 160px;
+	text-align: left;
+}
+.dairycontent p{
+	border: 1px solid royalblue;
+	color:#545454;
+	text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/
+}
+
+.comment{
+	border: 1px dashed blueviolet;
+	
+}
+
+.comment div:nth-child(1){
+	border: 1px dashed red;
+	width: 100px;
+	height: 150px;
+	float: left;
+}
+.comment div:nth-child(2){
+	border: 1px dashed red;
+	float: left;
+}
+
+.comment div p {
+	border: 1px solid navy;
+	text-align: left;
+}
+
+.comment div span{
+	font-size: 13px;
+}
+
+.comment div span:nth-child(1) {
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.comment div span:nth-child(2){
+	color: #9B9B9B;
+}
+
+.comment  img{
+	
+	height: 100px;
+	width: 100px;
+}
+
+.comment input{
+	width: 400px;
+    height: 26px;
+}
+
+.comment input[type='button']{
+	background: #7B8C9E;
+	width:80px;
+	height: 30px;
+	font-size: 16px;
+	color: white;
+}
+
+.docomment{
+	border:1px solid brown;
+	
+}
+.docomment p{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.docomment textarea{
+	width: 763px;
+	height: 98px;
+	resize: none;
+}
+
+.docomment img{
+	height: 100px;
+	width: 100px;
+}
+
+.docomment input[type='button']{
+	background: #7B8C9E;
+	width:80px;
+	height: 34px;
+	font-size: 16px;
+	color: white;
+}
+
+

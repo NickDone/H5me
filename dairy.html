@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="css/dairy.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class='bodycontent'>
+			<div class='category'></div>
+			<div class='recommend'></div>
+			<div class='dairylist'>
+				<div class='dairylistitem' ng-repeat='da in dairyData'>
+					<div>
+						<p>{{da.Likers}}</p>	
+						<p><a href="javascript:void(0)" ng-click="Ilikeit(da.id)"><span></span></a></p>
+					</div>
+					
+					<div>
+						<p><a href="javascript:void(0)">{{da.Title}}</a></p>
+						<p>{{da.Abstract}}</p>
+						<p>发布于 {{da.UpdateDate}} <span><a href="javascript:void(0)">评论({{da.CommentCount}})</a></span><span><a href="javascript:void(0)">阅读({{da.Readers}})</a></span></p>
+					</div>
+				
+				</div>
+				
+			</div>
+			<div class='pagechange'>
+				<ul>
+					<li  ng-repeat='li in pageList' ng-click='pageSelect(li)' ng-class="{'current':li==curpage}">{{li}}</li>
+				</ul>
+			</div>
+		</div>
+		
+	</body>
+</html>

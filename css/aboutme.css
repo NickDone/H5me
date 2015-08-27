@@ -1,13 +1,14 @@
 
 #myInfoContent{
 	margin:40px auto;
-	width:960px;
-	height:auto;
+	width:1080px;
+	height:960px;
 	
-	background-image: -webkit-linear-gradient(left,#00C6FC 0%,#FFFFFF 180% );  
-	background-image:-moz-linear-gradient(left,#00C6FC 0%,#FFFFFF 180% );  
-	background-image: -ms-linear-gradient(left,#00C6FC 0%,#FFFFFF 180% );  
-    background-image: linear-gradient(left,#00C6FC 0%,#FFFFFF 180% );  
+	background-image: -webkit-linear-gradient(left,#FFFFFF -30%,#00C6FC 50%,#FFFFFF 180% );  
+	background-image:-moz-linear-gradient(left,#FFFFFF -30%,#00C6FC 50%,#FFFFFF 180% );  
+	background-image: -ms-linear-gradient(left,#FFFFFF -30%,#00C6FC 50%,#FFFFFF 180% );  
+    background-image: linear-gradient(left,#FFFFFF -30%,#00C6FC 50%,#FFFFFF 180% );  
+	
 }
 
 #top{
@@ -31,7 +32,7 @@
 #myinfo li{
 	font-family:"黑体";
 	color:white;	
-	border:1px solid  white;
+	border:1px solid  transparent;
 	list-style:none;
 	height:60px;
 	width:90%;
@@ -39,10 +40,13 @@
 	-webkit-border-radius:30px;
 	-moz-border-radius:30px;
 	border-radius:30px;	
+	color:#272822;
+	background: white ;
 }
 
 #myinfo li span:nth-child(1){
 	/*border:1px solid red;*/
+	color:#272822;
 	float:left;
 	font-size:25px;
 	line-height:60px;
@@ -50,9 +54,12 @@
 }
 #myinfo li span:nth-child(2){
 	/*border:1px solid red;*/
+	color:#272822;
 	line-height:30px;
 	height:60px;
 	display:block;
 	overflow:hidden;
 }
+
+
 

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/dairydetails.css" />
+	</head>
+	<body>
+		<div class="content">
+			<div class='head'>
+				<P>日志</P>
+				<p><a href="#/dairy" >返回日志列表</a></p>
+			</div>
+		
+			<div class='title'>
+			<p>{{dairyDetails.Title}}</p>	
+			<p>发布于{{dairyDetails.UpdateDate}} 阅读({{dairyDetails.Readers}})</p>
+			</div>
+		
+			<div class='operate'>
+				<span><a href="#">赞({{dairyDetails.Likers}})</a></span>|
+				<span><a href="#">评论({{dairyDetails.CommentCount}})</a></span>|
+				<sapn><a href="#">分享</a></sapn>|
+				<span><a href="#">复制地址</a></span>|
+				<span><a href="#">上一篇  </a></span>| 
+				<span><a href="#">下一篇</a></span>
+			</div>
+		
+			<div class='dairycontent'><p>{{dairyDetails.Content}}</p></div>
+		
+			<div class='operate'>
+				<span><a href="#">赞(9)</a></span>|
+				<span><a href="#">评论(3)</a></span>|
+				<sapn><a href="#">分享</a></sapn>|
+				<span><a href="#">复制地址</a></span>|
+				<span><a href="#">上一篇  </a></span>| 
+				<span><a href="#">下一篇</a></span>
+			</div>
+			<hr>
+			<!--<div class="comment">
+				<div>
+					<p><span><img src="images/1.jpg"></span><span>王者</span></p>
+				</div>
+				
+				<div>
+					<p>
+						<span>1楼</span>
+						<span>评论时间:2015-01-30 00:24:53</span> 
+					</p>
+					<p>你是谁的男神呢。你是谁的男神呢你是谁的男神呢你是谁的男神呢你是谁的男神呢</p>
+					<p>
+						<input type="text" placeholder="我也说一句">
+						<input type="button" value="发表"/>
+					</p>
+				</div>
+				<div style="clear: both;"></div>
+			</div>-->
+			
+			<div class=comment ng-repeat='da in dairyComment'>
+				<div>
+					<p><span><img src="images/1.jpg"></span><span>王者</span></p>
+				</div>
+				<div >
+					<p>
+						<span>{{$index+1}}楼</span>
+						<span>评论时间:{{da.time}}</span> 
+					</p>
+					<p>{{da.nicky+'说：  '+da.content}}</p>
+					<p ng-repeat='d in da.reply'>{{d.nicky+'说：  '+d.content}}</p>
+					<p>
+						<input type="text" ng-model='mycomment' placeholder="我也说一句">
+						<input type="button" value="发表"/>
+					</p>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+			
+			
+			<div class='docomment'>
+				<p>发表评论</p>
+				<p>
+					<img src="images/1.jpg" />
+					<textarea></textarea>
+				</p>
+				<p>
+					<input type="button" value="发表"/>
+				</p>
+			</div>
+				
+		</div>
+		
+		
+	</body>
+</html>

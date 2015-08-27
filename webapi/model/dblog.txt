@@ -1,0 +1,740 @@
+2015-08-22 13:31:52 查询 select count(*) from mydairy
+2015-08-22 13:31:52 获取一条记录 select count(*) from mydairy
+2015-08-22 13:32:01 查询 select count(*) from mydairy
+2015-08-22 13:32:01 获取一条记录 select count(*) from mydairy
+2015-08-22 13:32:01 释放结果集
+2015-08-22 13:32:01 完成整个查询任务,所用时间为1.0100581645966
+2015-08-22 13:34:26 查询 select count(*) from mydairy
+2015-08-22 13:34:26 释放结果集
+2015-08-22 13:34:26 完成整个查询任务,所用时间为1.0200579166412
+2015-08-22 13:34:40 查询 select count(*) from mydairy
+2015-08-22 13:34:40 释放结果集
+2015-08-22 13:34:40 完成整个查询任务,所用时间为1.0290589332581
+2015-08-22 13:34:42 查询 select count(*) from mydairy
+2015-08-22 13:34:42 释放结果集
+2015-08-22 13:34:42 完成整个查询任务,所用时间为1.0270590782166
+2015-08-22 13:35:26 查询 select count(*) from mydairy
+2015-08-22 13:35:26 释放结果集
+2015-08-22 13:35:26 完成整个查询任务,所用时间为1.0370590686798
+2015-08-22 13:36:06 查询 select * from mydairy
+2015-08-22 13:36:06 释放结果集
+2015-08-22 13:36:06 完成整个查询任务,所用时间为1.0050570964813
+2015-08-22 13:37:23 查询 select count(*) from mydairy
+2015-08-22 13:37:23 获取一条记录 select count(*) from mydairy
+2015-08-22 13:37:23 释放结果集
+2015-08-22 13:37:23 完成整个查询任务,所用时间为1.0320591926575
+2015-08-22 13:38:00 查询 select count(*) from mydairy
+2015-08-22 13:38:00 获取一条记录 select count(*) from mydairy
+2015-08-22 13:38:00 释放结果集
+2015-08-22 13:38:00 完成整个查询任务,所用时间为1.0300588607788
+2015-08-22 13:39:24 查询 select count(*) from mydairy
+2015-08-22 13:39:24 获取一条记录 select count(*) from mydairy
+2015-08-22 13:39:24 释放结果集
+2015-08-22 13:39:24 完成整个查询任务,所用时间为1.0130581855774
+2015-08-22 13:39:33 查询 select count(*) from mydairy
+2015-08-22 13:39:33 获取一条记录 select count(*) from mydairy
+2015-08-22 13:39:33 释放结果集
+2015-08-22 13:39:33 完成整个查询任务,所用时间为1.0300590991974
+2015-08-22 13:40:07 查询 select count(*) from mydairy
+2015-08-22 13:40:07 获取一条记录 select count(*) from mydairy
+2015-08-22 13:40:07 释放结果集
+2015-08-22 13:40:07 完成整个查询任务,所用时间为1.017058134079
+2015-08-22 13:40:27 查询 select count(*) from mydairy
+2015-08-22 13:40:27 获取一条记录 select count(*) from mydairy
+2015-08-22 13:40:27 释放结果集
+2015-08-22 13:40:27 完成整个查询任务,所用时间为1.0180580615997
+2015-08-22 13:42:53 查询 select count(*) from mydairy
+2015-08-22 13:42:53 获取一条记录 select count(*) from mydairy
+2015-08-22 13:42:53 释放结果集
+2015-08-22 13:42:53 完成整个查询任务,所用时间为1.0250580310822
+2015-08-22 13:45:24 查询 select count(*) from mydairy
+2015-08-22 13:45:24 获取一条记录 select count(*) from mydairy
+2015-08-22 13:45:24 释放结果集
+2015-08-22 13:45:24 完成整个查询任务,所用时间为1.0120580196381
+2015-08-22 13:46:05 查询 select count(*) from mydairy
+2015-08-22 13:46:05 获取一条记录 select count(*) from mydairy
+2015-08-22 13:46:05 释放结果集
+2015-08-22 13:46:05 完成整个查询任务,所用时间为1.0300588607788
+2015-08-22 13:46:51 查询 select count(*) from mydairy
+2015-08-22 13:46:51 获取一条记录 select count(*) from mydairy
+2015-08-22 13:46:51 释放结果集
+2015-08-22 13:46:51 完成整个查询任务,所用时间为1.0200591087341
+2015-08-22 13:47:09 查询 select count(*) from mydairy
+2015-08-22 13:47:09 获取一条记录 select count(*) from mydairy
+2015-08-22 13:47:09 释放结果集
+2015-08-22 13:47:09 完成整个查询任务,所用时间为1.0100581645966
+2015-08-22 13:47:24 查询 select count(*) from mydairy
+2015-08-22 13:47:24 获取一条记录 select count(*) from mydairy
+2015-08-22 13:47:24 释放结果集
+2015-08-22 13:47:24 完成整个查询任务,所用时间为1.0200579166412
+2015-08-22 13:48:47 查询 select count(*) from mydairy
+2015-08-22 13:48:47 获取一条记录 select count(*) from mydairy
+2015-08-22 13:48:47 释放结果集
+2015-08-22 13:48:47 完成整个查询任务,所用时间为1.0310590267181
+2015-08-22 13:49:16 查询 select count(*) from mydairy
+2015-08-22 13:49:16 获取一条记录 select count(*) from mydairy
+2015-08-22 13:49:16 释放结果集
+2015-08-22 13:49:16 完成整个查询任务,所用时间为1.0220580101013
+2015-08-22 13:50:00 查询 select count(*) from mydairy
+2015-08-22 13:50:00 获取一条记录 select count(*) from mydairy
+2015-08-22 13:50:00 释放结果集
+2015-08-22 13:50:00 完成整个查询任务,所用时间为1.0150580406189
+2015-08-22 13:50:03 查询 select count(*) from mydairy
+2015-08-22 13:50:03 获取一条记录 select count(*) from mydairy
+2015-08-22 13:50:03 释放结果集
+2015-08-22 13:50:03 完成整个查询任务,所用时间为1.0290579795837
+2015-08-22 13:50:59 查询 select count(*) from mydairy
+2015-08-22 13:50:59 获取一条记录 select count(*) from mydairy
+2015-08-22 13:50:59 释放结果集
+2015-08-22 13:50:59 完成整个查询任务,所用时间为1.0310580730438
+2015-08-22 13:51:30 查询 select count(*) from mydairy
+2015-08-22 13:51:30 获取一条记录 select count(*) from mydairy
+2015-08-22 13:51:30 释放结果集
+2015-08-22 13:51:30 完成整个查询任务,所用时间为1.0370588302612
+2015-08-22 13:51:32 查询 select count(*) from mydairy
+2015-08-22 13:51:32 获取一条记录 select count(*) from mydairy
+2015-08-22 13:51:32 释放结果集
+2015-08-22 13:51:32 完成整个查询任务,所用时间为1.0140578746796
+2015-08-22 13:51:45 查询 select count(*) from mydairy
+2015-08-22 13:51:45 获取一条记录 select count(*) from mydairy
+2015-08-22 13:51:45 释放结果集
+2015-08-22 13:51:45 完成整个查询任务,所用时间为1.0290589332581
+2015-08-22 13:53:07 查询 select count(*) from mydairy
+2015-08-22 13:53:07 获取一条记录 select count(*) from mydairy
+2015-08-22 13:53:07 释放结果集
+2015-08-22 13:53:07 完成整个查询任务,所用时间为1.0270581245422
+2015-08-22 13:53:09 查询 select count(*) from mydairy
+2015-08-22 13:53:09 获取一条记录 select count(*) from mydairy
+2015-08-22 13:53:09 释放结果集
+2015-08-22 13:53:09 完成整个查询任务,所用时间为1.0070579051971
+2015-08-22 13:53:59 查询 select count(*) from mydairy
+2015-08-22 13:53:59 获取一条记录 select count(*) from mydairy
+2015-08-22 13:53:59 释放结果集
+2015-08-22 13:53:59 完成整个查询任务,所用时间为1.0180580615997
+2015-08-22 13:55:14 查询 select count(*) from mydairy
+2015-08-22 13:55:14 获取一条记录 select count(*) from mydairy
+2015-08-22 13:55:14 释放结果集
+2015-08-22 13:55:14 完成整个查询任务,所用时间为1.0240581035614
+2015-08-22 13:56:03 查询 select count(*) from mydairy
+2015-08-22 13:56:03 获取全部记录 select count(*) from mydairy
+2015-08-22 13:56:03 释放结果集
+2015-08-22 13:56:03 完成整个查询任务,所用时间为1.027058839798
+2015-08-22 13:56:35 查询 select count(*) from mydairy
+2015-08-22 13:56:35 获取全部记录 select count(*) from mydairy
+2015-08-22 13:56:35 释放结果集
+2015-08-22 13:56:35 完成整个查询任务,所用时间为1.0230579376221
+2015-08-22 13:57:22 查询 select * from mydairy
+2015-08-22 13:57:22 获取一条记录 select * from mydairy
+2015-08-22 13:57:22 释放结果集
+2015-08-22 13:57:22 完成整个查询任务,所用时间为1.0140581130981
+2015-08-22 14:00:00 查询 select count(*) from mydairy
+2015-08-22 14:00:00 释放结果集
+2015-08-22 14:00:00 完成整个查询任务,所用时间为1.0100569725037
+2015-08-22 14:00:08 查询 select count(*) from mydairy
+2015-08-22 14:00:08 释放结果集
+2015-08-22 14:00:08 完成整个查询任务,所用时间为1.0240590572357
+2015-08-22 14:06:51 查询 select count(*) from mydairy
+2015-08-22 14:06:51 释放结果集
+2015-08-22 14:06:51 完成整个查询任务,所用时间为1.023059129715
+2015-08-22 14:17:29 查询 select count(*) from mydairy
+2015-08-22 14:17:29 查询 select * from mydairy limt0,0
+2015-08-22 14:17:29 Query Error: select * from mydairy limt0,0
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1
+2015-08-22 14:17:29 释放结果集
+2015-08-22 14:17:29 完成整个查询任务,所用时间为1.0170578956604
+2015-08-22 14:18:01 查询 select count(*) from mydairy
+2015-08-22 14:18:03 查询 select count(*) from mydairy
+2015-08-22 14:18:19 查询 select count(*) from mydairy
+2015-08-22 14:20:10 查询 select count(*) from mydairy
+2015-08-22 14:20:10 查询 select * from mydairy limt0,2
+2015-08-22 14:20:10 Query Error: select * from mydairy limt0,2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2' at line 1
+2015-08-22 14:20:10 释放结果集
+2015-08-22 14:20:10 完成整个查询任务,所用时间为1.0150580406189
+2015-08-22 14:20:49 查询 select count(*) from mydairy
+2015-08-22 14:20:49 查询 select * from mydairy limt 0,2
+2015-08-22 14:20:49 Query Error: select * from mydairy limt 0,2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0,2' at line 1
+2015-08-22 14:20:49 释放结果集
+2015-08-22 14:20:49 完成整个查询任务,所用时间为1.0060579776764
+2015-08-22 14:22:12 查询 select count(*) from mydairy
+2015-08-22 14:22:12 查询 select * from mydairy limit 0,2
+2015-08-22 14:22:12 获取全部记录 select * from mydairy limit 0,2
+2015-08-22 14:22:12 释放结果集
+2015-08-22 14:22:12 完成整个查询任务,所用时间为1.0120580196381
+2015-08-22 14:22:54 查询 select count(*) from mydairy
+2015-08-22 14:22:54 查询 select * from mydairy
+2015-08-22 14:22:54 获取全部记录 select * from mydairy
+2015-08-22 14:22:54 释放结果集
+2015-08-22 14:22:54 完成整个查询任务,所用时间为1.0320591926575
+2015-08-22 14:22:56 查询 select count(*) from mydairy
+2015-08-22 14:22:56 查询 select * from mydairy
+2015-08-22 14:22:56 获取全部记录 select * from mydairy
+2015-08-22 14:22:56 释放结果集
+2015-08-22 14:22:56 完成整个查询任务,所用时间为1.0300588607788
+2015-08-22 14:23:08 查询 select count(*) from mydairy
+2015-08-22 14:23:08 查询 select * from mydairy
+2015-08-22 14:23:08 获取全部记录 select * from mydairy
+2015-08-22 14:23:08 释放结果集
+2015-08-22 14:23:08 完成整个查询任务,所用时间为1.0300590991974
+2015-08-22 14:23:27 查询 select count(*) from mydairy
+2015-08-22 14:23:27 查询 select * from mydairy
+2015-08-22 14:23:27 获取全部记录 select * from mydairy
+2015-08-22 14:23:27 释放结果集
+2015-08-22 14:23:27 完成整个查询任务,所用时间为1.0300590991974
+2015-08-22 14:24:20 查询 select count(*) from mydairy
+2015-08-22 14:24:20 查询 select * from mydairy
+2015-08-22 14:24:20 获取全部记录 select * from mydairy
+2015-08-22 14:24:20 释放结果集
+2015-08-22 14:24:20 完成整个查询任务,所用时间为1.0260591506958
+2015-08-22 14:25:13 查询 select count(*) from mydairy
+2015-08-22 14:25:13 查询 select * from mydairy
+2015-08-22 14:25:13 获取全部记录 select * from mydairy
+2015-08-22 14:25:13 释放结果集
+2015-08-22 14:25:13 完成整个查询任务,所用时间为1.0200579166412
+2015-08-22 14:25:48 查询 select count(*) from mydairy
+2015-08-22 14:25:48 查询 select * from mydairy
+2015-08-22 14:25:48 获取全部记录 select * from mydairy
+2015-08-22 14:25:48 释放结果集
+2015-08-22 14:25:48 完成整个查询任务,所用时间为1.0090579986572
+2015-08-22 14:27:12 查询 select count(*) from mydairy
+2015-08-22 14:27:12 查询 select * from mydairy
+2015-08-22 14:27:12 获取全部记录 select * from mydairy
+2015-08-22 14:27:12 释放结果集
+2015-08-22 14:27:12 完成整个查询任务,所用时间为1.0080568790436
+2015-08-22 14:27:14 查询 select count(*) from mydairy
+2015-08-22 14:27:14 查询 select * from mydairy
+2015-08-22 14:27:14 获取全部记录 select * from mydairy
+2015-08-22 14:27:14 释放结果集
+2015-08-22 14:27:14 完成整个查询任务,所用时间为1.0220580101013
+2015-08-22 14:27:32 查询 select count(*) from mydairy
+2015-08-22 14:27:32 查询 select * from mydairy limit 0,1
+2015-08-22 14:27:32 获取全部记录 select * from mydairy limit 0,1
+2015-08-22 14:27:32 释放结果集
+2015-08-22 14:27:32 完成整个查询任务,所用时间为1.0260579586029
+2015-08-22 14:27:40 查询 select count(*) from mydairy
+2015-08-22 14:27:40 查询 select * from mydairy limit 1,2
+2015-08-22 14:27:40 获取全部记录 select * from mydairy limit 1,2
+2015-08-22 14:27:40 释放结果集
+2015-08-22 14:27:40 完成整个查询任务,所用时间为1.0220580101013
+2015-08-23 10:51:54 查询 select count(*) from mydairy
+2015-08-23 10:51:54 查询 select id,Titile,Read,Like,UpdateDate from mydairy limit 0,10
+2015-08-23 10:51:54 Query Error: select id,Titile,Read,Like,UpdateDate from mydairy limit 0,10
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Read,Like,UpdateDate from mydairy limit 0,10' at line 1
+2015-08-23 10:51:54 释放结果集
+2015-08-23 10:51:54 完成整个查询任务,所用时间为1.0300588607788
+2015-08-23 10:52:17 查询 select count(*) from mydairy
+2015-08-23 10:52:17 查询 select id,Title,Read,Like,UpdateDate from mydairy limit 0,10
+2015-08-23 10:52:17 Query Error: select id,Title,Read,Like,UpdateDate from mydairy limit 0,10
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Read,Like,UpdateDate from mydairy limit 0,10' at line 1
+2015-08-23 10:52:17 释放结果集
+2015-08-23 10:52:17 完成整个查询任务,所用时间为1.010057926178
+2015-08-23 10:52:36 查询 select count(*) from mydairy
+2015-08-23 10:52:36 查询 select id,Title,Read,Like,UpdateDate from mydairy limit 0,10
+2015-08-23 10:52:36 Query Error: select id,Title,Read,Like,UpdateDate from mydairy limit 0,10
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Read,Like,UpdateDate from mydairy limit 0,10' at line 1
+2015-08-23 10:52:36 释放结果集
+2015-08-23 10:52:36 完成整个查询任务,所用时间为1.0220580101013
+2015-08-23 10:53:03 查询 select count(*) from mydairy
+2015-08-23 10:53:03 查询 select 'id','Title','Read','Like','UpdateDate' from mydairy limit 0,10
+2015-08-23 10:53:03 获取全部记录 select 'id','Title','Read','Like','UpdateDate' from mydairy limit 0,10
+2015-08-23 10:53:03 释放结果集
+2015-08-23 10:53:03 完成整个查询任务,所用时间为1.0160582065582
+2015-08-23 10:53:21 查询 select count(*) from mydairy
+2015-08-23 10:53:21 查询 select id,Title,Read,Like,UpdateDate from mydairy limit 0,10
+2015-08-23 10:53:21 Query Error: select id,Title,Read,Like,UpdateDate from mydairy limit 0,10
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Read,Like,UpdateDate from mydairy limit 0,10' at line 1
+2015-08-23 10:53:21 释放结果集
+2015-08-23 10:53:21 完成整个查询任务,所用时间为1.0150578022003
+2015-08-23 10:55:42 查询 select count(*) from mydairy
+2015-08-23 10:55:42 查询 select id,Title,Read,ILike,UpdateDate from mydairy limit 0,10
+2015-08-23 10:55:42 Query Error: select id,Title,Read,ILike,UpdateDate from mydairy limit 0,10
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Read,ILike,UpdateDate from mydairy limit 0,10' at line 1
+2015-08-23 10:55:42 释放结果集
+2015-08-23 10:55:42 完成整个查询任务,所用时间为1.034059047699
+2015-08-23 10:56:47 查询 select count(*) from mydairy
+2015-08-23 10:56:47 查询 select id,Title,Readers,Likers,UpdateDate from mydairy limit 0,10
+2015-08-23 10:56:47 获取全部记录 select id,Title,Readers,Likers,UpdateDate from mydairy limit 0,10
+2015-08-23 10:56:47 释放结果集
+2015-08-23 10:56:47 完成整个查询任务,所用时间为1.0150578022003
+2015-08-23 11:01:11 查询 select count(*) from mydairy
+2015-08-23 11:01:11 查询 select id,Title,Readers,Likers,UpdateDate from mydairy limit 0,10
+2015-08-23 11:01:11 获取全部记录 select id,Title,Readers,Likers,UpdateDate from mydairy limit 0,10
+2015-08-23 11:01:11 释放结果集
+2015-08-23 11:01:11 完成整个查询任务,所用时间为1.0240581035614
+2015-08-23 11:13:54 查询 select count(*) from mydairy
+2015-08-23 11:13:54 查询 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 0,10
+2015-08-23 11:13:54 获取全部记录 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 0,10
+2015-08-23 11:13:54 释放结果集
+2015-08-23 11:13:54 完成整个查询任务,所用时间为1.0280590057373
+2015-08-24 22:44:06 查询 select count(*) from mydairy
+2015-08-24 22:44:06 查询 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 0,1
+2015-08-24 22:44:06 获取全部记录 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 0,1
+2015-08-24 22:44:06 释放结果集
+2015-08-24 22:44:06 完成整个查询任务,所用时间为1.0120580196381
+2015-08-24 22:44:10 查询 select count(*) from mydairy
+2015-08-24 22:44:10 查询 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 0,1
+2015-08-24 22:44:10 获取全部记录 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 0,1
+2015-08-24 22:44:10 释放结果集
+2015-08-24 22:44:10 完成整个查询任务,所用时间为1.0240590572357
+2015-08-24 22:44:22 查询 select count(*) from mydairy
+2015-08-24 22:44:22 查询 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 2,3
+2015-08-24 22:44:22 获取全部记录 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 2,3
+2015-08-24 22:44:22 释放结果集
+2015-08-24 22:44:22 完成整个查询任务,所用时间为1.0320589542389
+2015-08-24 22:44:24 查询 select count(*) from mydairy
+2015-08-24 22:44:24 查询 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 2,3
+2015-08-24 22:44:24 获取全部记录 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 2,3
+2015-08-24 22:44:24 释放结果集
+2015-08-24 22:44:24 完成整个查询任务,所用时间为1.040060043335
+2015-08-24 22:52:30 查询 select count(*) from mydairy
+2015-08-24 22:52:30 查询 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 4,6
+2015-08-24 22:52:30 获取全部记录 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 4,6
+2015-08-24 22:52:30 释放结果集
+2015-08-24 22:52:30 完成整个查询任务,所用时间为1.0130579471588
+2015-08-24 22:52:38 查询 select count(*) from mydairy
+2015-08-24 22:52:38 查询 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 4,6
+2015-08-24 22:52:38 获取全部记录 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 4,6
+2015-08-24 22:52:38 释放结果集
+2015-08-24 22:52:38 完成整个查询任务,所用时间为1.0260589122772
+2015-08-24 22:52:41 查询 select count(*) from mydairy
+2015-08-24 22:52:41 查询 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 4,6
+2015-08-24 22:52:41 获取全部记录 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 4,6
+2015-08-24 22:52:41 释放结果集
+2015-08-24 22:52:41 完成整个查询任务,所用时间为1.017058134079
+2015-08-24 22:52:51 查询 select count(*) from mydairy
+2015-08-24 22:52:51 查询 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 2,4
+2015-08-24 22:52:51 获取全部记录 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 2,4
+2015-08-24 22:52:51 释放结果集
+2015-08-24 22:52:51 完成整个查询任务,所用时间为1.0450599193573
+2015-08-24 22:52:54 查询 select count(*) from mydairy
+2015-08-24 22:52:54 查询 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 2,4
+2015-08-24 22:52:54 获取全部记录 select id,Title,Abstract,Readers,Likers,UpdateDate from mydairy limit 2,4
+2015-08-24 22:52:54 释放结果集
+2015-08-24 22:52:54 完成整个查询任务,所用时间为1.0210590362549
+2015-08-27 21:32:54 查询 select count(*) from mydairy
+2015-08-27 21:32:54 查询 select id,Title,Abstract,CommentCount,Readers,Likers,UpdateDate from mydairy limit 10,20
+2015-08-27 21:32:54 获取全部记录 select id,Title,Abstract,CommentCount,Readers,Likers,UpdateDate from mydairy limit 10,20
+2015-08-27 21:32:54 释放结果集
+2015-08-27 21:32:54 完成整个查询任务,所用时间为1.0710611343384
+2015-08-27 21:33:00 查询 select * from mydairy where id=2
+2015-08-27 21:33:00 获取全部记录 select * from mydairy where id=2
+2015-08-27 21:33:00 释放结果集
+2015-08-27 21:33:00 完成整个查询任务,所用时间为1.0260579586029
+2015-08-27 21:33:04 查询 select * from mydairy where id=2
+2015-08-27 21:33:04 获取全部记录 select * from mydairy where id=2
+2015-08-27 21:33:04 释放结果集
+2015-08-27 21:33:04 完成整个查询任务,所用时间为1.0240578651428
+2015-08-27 21:33:43 查询 select * from mydairy where id=2
+2015-08-27 21:33:43 获取全部记录 select * from mydairy where id=2
+2015-08-27 21:33:43 释放结果集
+2015-08-27 21:33:43 完成整个查询任务,所用时间为1.0020568370819
+2015-08-27 21:47:49 查询 select * from comments where id =1
+2015-08-27 21:47:49 获取全部记录 select * from comments where id =1
+2015-08-27 21:47:49 释放结果集
+2015-08-27 21:47:49 完成整个查询任务,所用时间为1.0290579795837
+2015-08-27 21:47:51 查询 select * from comments where id =1
+2015-08-27 21:47:51 获取全部记录 select * from comments where id =1
+2015-08-27 21:47:51 释放结果集
+2015-08-27 21:47:51 完成整个查询任务,所用时间为1.0350592136383
+2015-08-27 21:47:54 查询 select * from comments where id =1
+2015-08-27 21:47:54 获取全部记录 select * from comments where id =1
+2015-08-27 21:47:54 释放结果集
+2015-08-27 21:47:54 完成整个查询任务,所用时间为1.0090568065643
+2015-08-27 21:47:57 查询 select * from comments where id =1
+2015-08-27 21:47:57 获取全部记录 select * from comments where id =1
+2015-08-27 21:47:57 释放结果集
+2015-08-27 21:47:57 完成整个查询任务,所用时间为1.0190579891205
+2015-08-27 21:48:04 查询 select * from comments where id =1
+2015-08-27 21:48:04 获取全部记录 select * from comments where id =1
+2015-08-27 21:48:04 释放结果集
+2015-08-27 21:48:04 完成整个查询任务,所用时间为1.0170578956604
+2015-08-27 21:48:09 查询 select * from comments where id =1
+2015-08-27 21:48:09 获取全部记录 select * from comments where id =1
+2015-08-27 21:48:09 释放结果集
+2015-08-27 21:48:09 完成整个查询任务,所用时间为1.0200581550598
+2015-08-27 21:48:31 查询 select * from comments where parenid =1
+2015-08-27 21:48:31 Query Error: select * from comments where parenid =1
+Unknown column 'parenid' in 'where clause'
+2015-08-27 21:48:31 释放结果集
+2015-08-27 21:48:31 完成整个查询任务,所用时间为1.0120580196381
+2015-08-27 21:48:33 查询 select * from comments where parenid =1
+2015-08-27 21:48:33 Query Error: select * from comments where parenid =1
+Unknown column 'parenid' in 'where clause'
+2015-08-27 21:48:33 释放结果集
+2015-08-27 21:48:33 完成整个查询任务,所用时间为1.0110580921173
+2015-08-27 21:48:48 查询 select * from comments where parenid =1
+2015-08-27 21:48:48 Query Error: select * from comments where parenid =1
+Unknown column 'parenid' in 'where clause'
+2015-08-27 21:48:48 释放结果集
+2015-08-27 21:48:48 完成整个查询任务,所用时间为1.0280590057373
+2015-08-27 21:48:52 查询 select * from comments where parentid =1
+2015-08-27 21:48:52 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:48:52 释放结果集
+2015-08-27 21:48:52 完成整个查询任务,所用时间为1.0180578231812
+2015-08-27 21:48:55 查询 select * from comments where parentid =1
+2015-08-27 21:48:55 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:48:55 释放结果集
+2015-08-27 21:48:55 完成整个查询任务,所用时间为1.0330588817596
+2015-08-27 21:49:24 查询 select * from comments where parentid =1
+2015-08-27 21:49:24 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:49:24 释放结果集
+2015-08-27 21:49:24 完成整个查询任务,所用时间为1.0260589122772
+2015-08-27 21:50:53 查询 select * from comments where parentid =1
+2015-08-27 21:50:53 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:50:53 释放结果集
+2015-08-27 21:50:53 完成整个查询任务,所用时间为1.0180580615997
+2015-08-27 21:50:58 查询 select * from comments where parentid =1
+2015-08-27 21:50:58 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:50:58 释放结果集
+2015-08-27 21:50:58 完成整个查询任务,所用时间为1.0140578746796
+2015-08-27 21:51:06 查询 select * from comments where parentid =1
+2015-08-27 21:51:06 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:51:06 释放结果集
+2015-08-27 21:51:06 完成整个查询任务,所用时间为1.0110580921173
+2015-08-27 21:51:36 查询 select * from comments where parentid =1
+2015-08-27 21:51:36 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:51:36 释放结果集
+2015-08-27 21:51:36 完成整个查询任务,所用时间为1.0190589427948
+2015-08-27 21:51:40 查询 select * from comments where parentid =1
+2015-08-27 21:51:40 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:51:40 释放结果集
+2015-08-27 21:51:40 完成整个查询任务,所用时间为1.0200579166412
+2015-08-27 21:51:42 查询 select * from comments where parentid =1
+2015-08-27 21:51:42 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:51:42 释放结果集
+2015-08-27 21:51:42 完成整个查询任务,所用时间为1.0130579471588
+2015-08-27 21:51:44 查询 select * from comments where parentid =1
+2015-08-27 21:51:44 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:51:44 释放结果集
+2015-08-27 21:51:44 完成整个查询任务,所用时间为1.0080578327179
+2015-08-27 21:51:52 查询 select * from comments where parentid =1
+2015-08-27 21:51:52 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:51:52 查询 select * from comments where parentid =1
+2015-08-27 21:51:52 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:51:52 查询 select * from comments where parentid =1
+2015-08-27 21:51:52 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:51:52 查询 select * from comments where parentid =1
+2015-08-27 21:51:52 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:51:52 释放结果集
+2015-08-27 21:51:52 完成整个查询任务,所用时间为1.0250577926636
+2015-08-27 21:51:54 查询 select * from comments where parentid =1
+2015-08-27 21:51:54 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:51:54 查询 select * from comments where parentid =1
+2015-08-27 21:51:54 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:51:54 查询 select * from comments where parentid =1
+2015-08-27 21:51:54 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:51:54 查询 select * from comments where parentid =1
+2015-08-27 21:51:54 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:51:54 释放结果集
+2015-08-27 21:51:54 完成整个查询任务,所用时间为1.0070579051971
+2015-08-27 21:53:39 查询 select * from comments where parentid =1
+2015-08-27 21:53:39 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:39 查询 select * from comments where parentid =1
+2015-08-27 21:53:39 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:39 查询 select * from comments where parentid =1
+2015-08-27 21:53:39 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:39 查询 select * from comments where parentid =1
+2015-08-27 21:53:39 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:39 释放结果集
+2015-08-27 21:53:39 完成整个查询任务,所用时间为1.0240581035614
+2015-08-27 21:53:43 查询 select * from comments where parentid =1
+2015-08-27 21:53:43 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:43 查询 select * from comments where parentid =1
+2015-08-27 21:53:43 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:43 查询 select * from comments where parentid =1
+2015-08-27 21:53:43 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:43 查询 select * from comments where parentid =1
+2015-08-27 21:53:43 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:43 释放结果集
+2015-08-27 21:53:43 完成整个查询任务,所用时间为1.0210590362549
+2015-08-27 21:53:55 查询 select * from comments where parentid =1
+2015-08-27 21:53:55 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:55 查询 select * from comments where parentid =1
+2015-08-27 21:53:55 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:55 查询 select * from comments where parentid =1
+2015-08-27 21:53:55 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:55 查询 select * from comments where parentid =1
+2015-08-27 21:53:55 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:55 释放结果集
+2015-08-27 21:53:55 完成整个查询任务,所用时间为1.0150580406189
+2015-08-27 21:53:57 查询 select * from comments where parentid =1
+2015-08-27 21:53:57 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:57 查询 select * from comments where parentid =1
+2015-08-27 21:53:57 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:57 查询 select * from comments where parentid =1
+2015-08-27 21:53:57 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:57 查询 select * from comments where parentid =1
+2015-08-27 21:53:57 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:53:57 释放结果集
+2015-08-27 21:53:57 完成整个查询任务,所用时间为1.0250580310822
+2015-08-27 21:54:08 查询 select * from comments where parentid =1
+2015-08-27 21:54:08 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:08 查询 select * from comments where parentid =1
+2015-08-27 21:54:08 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:08 查询 select * from comments where parentid =1
+2015-08-27 21:54:08 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:08 查询 select * from comments where parentid =1
+2015-08-27 21:54:08 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:08 释放结果集
+2015-08-27 21:54:08 完成整个查询任务,所用时间为1.0050580501556
+2015-08-27 21:54:09 查询 select * from comments where parentid =1
+2015-08-27 21:54:09 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:09 查询 select * from comments where parentid =1
+2015-08-27 21:54:09 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:09 查询 select * from comments where parentid =1
+2015-08-27 21:54:09 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:09 查询 select * from comments where parentid =1
+2015-08-27 21:54:09 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:09 释放结果集
+2015-08-27 21:54:09 完成整个查询任务,所用时间为1.0370590686798
+2015-08-27 21:54:29 查询 select * from comments where parentid =1
+2015-08-27 21:54:29 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:29 查询 select * from comments where parentid =1
+2015-08-27 21:54:29 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:29 查询 select * from comments where parentid =1
+2015-08-27 21:54:29 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:29 查询 select * from comments where parentid =1
+2015-08-27 21:54:29 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:29 释放结果集
+2015-08-27 21:54:29 完成整个查询任务,所用时间为1.0210580825806
+2015-08-27 21:54:31 查询 select * from comments where parentid =1
+2015-08-27 21:54:31 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:31 查询 select * from comments where parentid =1
+2015-08-27 21:54:31 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:31 查询 select * from comments where parentid =1
+2015-08-27 21:54:31 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:31 查询 select * from comments where parentid =1
+2015-08-27 21:54:31 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:31 释放结果集
+2015-08-27 21:54:31 完成整个查询任务,所用时间为1.0250589847565
+2015-08-27 21:54:51 查询 select * from comments where parentid =1
+2015-08-27 21:54:51 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:51 查询 select * from comments where parentid =1
+2015-08-27 21:54:51 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:51 查询 select * from comments where parentid =1
+2015-08-27 21:54:51 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:51 查询 select * from comments where parentid =1
+2015-08-27 21:54:51 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:51 查询 select * from comments where parentid =1
+2015-08-27 21:54:51 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:51 释放结果集
+2015-08-27 21:54:51 完成整个查询任务,所用时间为1.0220577716827
+2015-08-27 21:54:52 查询 select * from comments where parentid =1
+2015-08-27 21:54:52 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:52 查询 select * from comments where parentid =1
+2015-08-27 21:54:52 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:52 查询 select * from comments where parentid =1
+2015-08-27 21:54:52 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:52 查询 select * from comments where parentid =1
+2015-08-27 21:54:52 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:52 查询 select * from comments where parentid =1
+2015-08-27 21:54:52 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:54:52 释放结果集
+2015-08-27 21:54:52 完成整个查询任务,所用时间为1.0230588912964
+2015-08-27 21:55:14 查询 select * from comments where parentid =1
+2015-08-27 21:55:14 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:55:14 查询 select * from comments where parentid =1
+2015-08-27 21:55:14 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:55:14 查询 select * from comments where parentid =1
+2015-08-27 21:55:14 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:55:14 查询 select * from comments where parentid =1
+2015-08-27 21:55:14 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:55:14 释放结果集
+2015-08-27 21:55:14 完成整个查询任务,所用时间为1.0230588912964
+2015-08-27 21:57:07 查询 select * from comments where parentid =1
+2015-08-27 21:57:07 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:07 查询 select * from comments where parentid =1
+2015-08-27 21:57:07 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:07 查询 select * from comments where parentid =1
+2015-08-27 21:57:07 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:07 查询 select * from comments where parentid =1
+2015-08-27 21:57:07 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:07 查询 select * from comments where parentid =1
+2015-08-27 21:57:07 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:07 释放结果集
+2015-08-27 21:57:07 完成整个查询任务,所用时间为1.0290591716766
+2015-08-27 21:57:10 查询 select * from comments where parentid =1
+2015-08-27 21:57:10 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:10 查询 select * from comments where parentid =1
+2015-08-27 21:57:10 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:10 查询 select * from comments where parentid =1
+2015-08-27 21:57:10 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:10 查询 select * from comments where parentid =1
+2015-08-27 21:57:10 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:10 查询 select * from comments where parentid =1
+2015-08-27 21:57:10 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:10 释放结果集
+2015-08-27 21:57:10 完成整个查询任务,所用时间为1.0210590362549
+2015-08-27 21:57:14 查询 select * from comments where parentid =1
+2015-08-27 21:57:14 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:14 查询 select * from comments where parentid =1
+2015-08-27 21:57:14 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:14 查询 select * from comments where parentid =1
+2015-08-27 21:57:14 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:14 查询 select * from comments where parentid =1
+2015-08-27 21:57:14 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:14 查询 select * from comments where parentid =1
+2015-08-27 21:57:14 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:14 释放结果集
+2015-08-27 21:57:14 完成整个查询任务,所用时间为1.0310590267181
+2015-08-27 21:57:23 查询 select * from comments where parentid =1
+2015-08-27 21:57:23 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:23 查询 select * from comments where parentid =1
+2015-08-27 21:57:23 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:23 查询 select * from comments where parentid =1
+2015-08-27 21:57:23 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:23 查询 select * from comments where parentid =1
+2015-08-27 21:57:23 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:23 释放结果集
+2015-08-27 21:57:23 完成整个查询任务,所用时间为1.0120570659637
+2015-08-27 21:57:25 查询 select * from comments where parentid =1
+2015-08-27 21:57:25 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:25 查询 select * from comments where parentid =1
+2015-08-27 21:57:25 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:25 查询 select * from comments where parentid =1
+2015-08-27 21:57:25 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:25 查询 select * from comments where parentid =1
+2015-08-27 21:57:25 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:57:25 释放结果集
+2015-08-27 21:57:25 完成整个查询任务,所用时间为1.0250589847565
+2015-08-27 21:58:29 查询 select * from comments where parentid =1
+2015-08-27 21:58:29 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:29 查询 select * from comments where parentid =1
+2015-08-27 21:58:29 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:29 查询 select * from comments where parentid =1
+2015-08-27 21:58:29 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:29 查询 select * from comments where parentid =1
+2015-08-27 21:58:29 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:29 释放结果集
+2015-08-27 21:58:29 完成整个查询任务,所用时间为1.0230588912964
+2015-08-27 21:58:40 查询 select * from comments where parentid =1
+2015-08-27 21:58:40 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:40 查询 select * from comments where parentid =1
+2015-08-27 21:58:40 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:40 查询 select * from comments where parentid =1
+2015-08-27 21:58:40 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:40 查询 select * from comments where parentid =1
+2015-08-27 21:58:40 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:40 释放结果集
+2015-08-27 21:58:40 完成整个查询任务,所用时间为1.0230588912964
+2015-08-27 21:58:42 查询 select * from comments where parentid =1
+2015-08-27 21:58:42 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:42 查询 select * from comments where parentid =1
+2015-08-27 21:58:42 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:42 查询 select * from comments where parentid =1
+2015-08-27 21:58:42 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:42 查询 select * from comments where parentid =1
+2015-08-27 21:58:42 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:42 释放结果集
+2015-08-27 21:58:42 完成整个查询任务,所用时间为1.0140578746796
+2015-08-27 21:58:53 查询 select * from comments where parentid =1
+2015-08-27 21:58:53 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:53 查询 select * from comments where parentid =1
+2015-08-27 21:58:53 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:53 查询 select * from comments where parentid =1
+2015-08-27 21:58:53 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:53 查询 select * from comments where parentid =1
+2015-08-27 21:58:53 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:53 释放结果集
+2015-08-27 21:58:53 完成整个查询任务,所用时间为1.0410590171814
+2015-08-27 21:58:56 查询 select * from comments where parentid =1
+2015-08-27 21:58:56 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:56 查询 select * from comments where parentid =1
+2015-08-27 21:58:56 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:56 查询 select * from comments where parentid =1
+2015-08-27 21:58:56 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:56 查询 select * from comments where parentid =1
+2015-08-27 21:58:56 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:56 释放结果集
+2015-08-27 21:58:56 完成整个查询任务,所用时间为1.0310590267181
+2015-08-27 21:58:58 查询 select * from comments where parentid =1
+2015-08-27 21:58:58 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:58 查询 select * from comments where parentid =1
+2015-08-27 21:58:58 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:58 查询 select * from comments where parentid =1
+2015-08-27 21:58:58 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:58 查询 select * from comments where parentid =1
+2015-08-27 21:58:58 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:58:58 释放结果集
+2015-08-27 21:58:58 完成整个查询任务,所用时间为1.0130579471588
+2015-08-27 21:59:10 查询 select * from comments where parentid =1
+2015-08-27 21:59:10 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:59:10 查询 select * from comments where parentid =1
+2015-08-27 21:59:10 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:59:10 查询 select * from comments where parentid =1
+2015-08-27 21:59:10 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:59:10 查询 select * from comments where parentid =1
+2015-08-27 21:59:10 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:59:10 释放结果集
+2015-08-27 21:59:10 完成整个查询任务,所用时间为1.0300581455231
+2015-08-27 21:59:11 查询 select * from comments where parentid =1
+2015-08-27 21:59:11 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:59:11 查询 select * from comments where parentid =1
+2015-08-27 21:59:11 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:59:11 查询 select * from comments where parentid =1
+2015-08-27 21:59:11 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:59:11 查询 select * from comments where parentid =1
+2015-08-27 21:59:11 获取全部记录 select * from comments where parentid =1
+2015-08-27 21:59:11 释放结果集
+2015-08-27 21:59:11 完成整个查询任务,所用时间为1.0090579986572
+2015-08-27 22:01:49 查询 select * from comments where parentid =1
+2015-08-27 22:01:49 获取全部记录 select * from comments where parentid =1
+2015-08-27 22:01:49 查询 select * from comments where parentid =1
+2015-08-27 22:01:49 获取全部记录 select * from comments where parentid =1
+2015-08-27 22:01:49 查询 select * from comments where parentid =1
+2015-08-27 22:01:49 获取全部记录 select * from comments where parentid =1
+2015-08-27 22:01:49 查询 select * from comments where parentid =1
+2015-08-27 22:01:49 获取全部记录 select * from comments where parentid =1
+2015-08-27 22:01:49 释放结果集
+2015-08-27 22:01:49 完成整个查询任务,所用时间为1.0300590991974
+2015-08-27 22:01:51 查询 select * from comments where parentid =1
+2015-08-27 22:01:51 获取全部记录 select * from comments where parentid =1
+2015-08-27 22:01:51 查询 select * from comments where parentid =1
+2015-08-27 22:01:51 获取全部记录 select * from comments where parentid =1
+2015-08-27 22:01:51 查询 select * from comments where parentid =1
+2015-08-27 22:01:51 获取全部记录 select * from comments where parentid =1
+2015-08-27 22:01:51 查询 select * from comments where parentid =1
+2015-08-27 22:01:51 获取全部记录 select * from comments where parentid =1
+2015-08-27 22:01:51 释放结果集
+2015-08-27 22:01:51 完成整个查询任务,所用时间为1.0330588817596
+2015-08-27 22:01:58 查询 select * from comments where parentid =1
+2015-08-27 22:01:58 获取全部记录 select * from comments where parentid =1
+2015-08-27 22:01:58 查询 select * from comments where parentid =1
+2015-08-27 22:01:58 获取全部记录 select * from comments where parentid =1
+2015-08-27 22:01:58 查询 select * from comments where parentid =1
+2015-08-27 22:01:58 获取全部记录 select * from comments where parentid =1
+2015-08-27 22:01:58 查询 select * from comments where parentid =1
+2015-08-27 22:01:58 获取全部记录 select * from comments where parentid =1
+2015-08-27 22:01:58 释放结果集
+2015-08-27 22:01:58 完成整个查询任务,所用时间为1.0180580615997
+2015-08-27 22:02:29 查询 select * from comments where parentid =1
+2015-08-27 22:02:29 获取全部记录 select * from comments where parentid =1
+2015-08-27 22:02:29 查询 select * from comments where replyid=1
+2015-08-27 22:02:29 获取全部记录 select * from comments where replyid=1
+2015-08-27 22:02:29 查询 select * from comments where replyid=3
+2015-08-27 22:02:29 获取全部记录 select * from comments where replyid=3
+2015-08-27 22:02:29 查询 select * from comments where replyid=4
+2015-08-27 22:02:29 获取全部记录 select * from comments where replyid=4
+2015-08-27 22:02:29 释放结果集
+2015-08-27 22:02:29 完成整个查询任务,所用时间为1.0200591087341
+2015-08-27 22:02:31 查询 select * from comments where parentid =1
+2015-08-27 22:02:31 获取全部记录 select * from comments where parentid =1
+2015-08-27 22:02:31 查询 select * from comments where replyid=1
+2015-08-27 22:02:31 获取全部记录 select * from comments where replyid=1
+2015-08-27 22:02:31 查询 select * from comments where replyid=3
+2015-08-27 22:02:31 获取全部记录 select * from comments where replyid=3
+2015-08-27 22:02:31 查询 select * from comments where replyid=4
+2015-08-27 22:02:31 获取全部记录 select * from comments where replyid=4
+2015-08-27 22:02:31 释放结果集
+2015-08-27 22:02:31 完成整个查询任务,所用时间为1.021057844162
+2015-08-27 22:07:31 查询 select * from comments where parentid =1
+2015-08-27 22:07:31 获取全部记录 select * from comments where parentid =1
+2015-08-27 22:07:31 查询 select * from comments where replyid=1
+2015-08-27 22:07:31 获取全部记录 select * from comments where replyid=1
+2015-08-27 22:07:31 查询 select * from comments where replyid=3
+2015-08-27 22:07:31 获取全部记录 select * from comments where replyid=3
+2015-08-27 22:07:31 查询 select * from comments where replyid=4
+2015-08-27 22:07:31 获取全部记录 select * from comments where replyid=4
+2015-08-27 22:07:31 释放结果集
+2015-08-27 22:07:31 完成整个查询任务,所用时间为1.0140581130981

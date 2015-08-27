@@ -3,6 +3,8 @@ body{
 	
 	background:rgba(0,222,223,0.1);
 	
+	font-family: "微软雅黑";
+	
 }
 
 #menu{
@@ -14,4 +16,10 @@ body{
 	height:54px;
 	position:fixed;
 	background:black;
+}
+
+a{
+	text-decoration: none;
+	
+	
 }

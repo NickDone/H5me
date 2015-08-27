@@ -1,2 +1,4 @@
 eclipse.preferences.version=1
-encoding//ServerServices/aboutme.php=GBK
+encoding//services/httpService.js=GB2312
+encoding//webapi/controller/AboutmeController.php=UTF-8
+encoding//webapi/model/AboutmeModle.php=UTF-8
