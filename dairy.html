@@ -8,20 +8,27 @@
 	<body>
 		<div class='bodycontent'>
 			<div class='category'></div>
-			<div class='recommend'></div>
+			<div class='recommend'>
+				<ul>
+					<li ng-repeat='da in Recommend'>
+						【推荐】<span><a href="#/dairydetails/{{da.id}}">{{da.Title}}</a></span><span>({{da.CommentCount}}/{{da.Readers}})</span>
+					</li>
+				</ul>
+			</div>
+			<hr>
 			<div class='dairylist'>
 				<div class='dairylistitem' ng-repeat='da in dairyData'>
 					<div>
 						<p>{{da.Likers}}</p>	
-						<p><a href="javascript:void(0)" ng-click="Ilikeit(da.id)"><span></span></a></p>
+						<p><a ng-href="javascript:void(0)" ng-click="Ilikeit($index)"><span></span></a></p>
 					</div>
 					
 					<div>
-						<p><a href="javascript:void(0)">{{da.Title}}</a></p>
+						<p><a ng-href="#/dairydetails/{{da.id}}">{{da.Title}}</a></p>
 						<p>{{da.Abstract}}</p>
-						<p>发布于 {{da.UpdateDate}} <span><a href="javascript:void(0)">评论({{da.CommentCount}})</a></span><span><a href="javascript:void(0)">阅读({{da.Readers}})</a></span></p>
+						<p>发布于 {{da.UpdateDate}} <span><a ng-href="#/dairydetails/{{da.id}}">评论({{da.CommentCount}})</a></span><span><a ng-href="#/dairydetails/{{da.id}}">阅读({{da.Readers}})</a></span></p>
 					</div>
-				
+					
 				</div>
 				
 			</div>

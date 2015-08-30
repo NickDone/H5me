@@ -4,23 +4,24 @@ a{
 }
 
 .content{
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin:47px auto;
 	width:1080px;
 	height:auto;
 	font-size:14px;
-	
+	background: white;
 }
 
 .head{
-	border: 1px saddlebrown solid;
+	/*border: 1px saddlebrown solid;*/
 	height:37px;	
 	text-align: left;
+	background:#F2F2F2;
 }
 
 .head p{
 	display:inline;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin-left: 15px;
 	font-weight :bold ;
 	line-height: 37px;
@@ -35,7 +36,7 @@ a{
 
 
 .title{
-	border: 1px crimson solid;
+	/*border: 1px crimson solid;*/
 	height: 45px;
 	text-align: left;
 }
@@ -51,44 +52,74 @@ a{
 }
 
 .operate{
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 	height: 40px;	
 	text-align: left;
 }
 
-.operate span{
-	margin:0px 10px 0 10px;
-	font
+.operate a{
+	/*border: 1px solid red;*/
 }
+.operate span{
+	margin:0px 0px 0 0px;
+	padding-left: 18px;
+	
+	width: 10px;
+	height: 10px;
+	/*border: 1px solid red;*/
+}
+
+.like{
+	background-image: url('../images/icons/icon0.png') ;
+	background-position: -276px -34px;
+}
+
+.commentcount{
+	background-image: url('../images/icons/icon0.png') ;
+	background-position: -293px -16px;
+}
+
+.share{
+	background-image: url('../images/icons/icon0.png') ;
+	background-position: -293px -0.5px;
+	
+}
+.copyurl{
+	background-image: url('../images/icons/icon0.png') ;
+	background-position: -310px 233px;
+}
+
 
 .dairycontent{
 	margin-bottom: 160px;
 	text-align: left;
 }
 .dairycontent p{
-	border: 1px solid royalblue;
+	/*border: 1px solid royalblue;*/
 	color:#545454;
 	text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/
 }
 
 .comment{
-	border: 1px dashed blueviolet;
+	/*border: 1px dashed blueviolet;*/
 	
 }
 
 .comment div:nth-child(1){
-	border: 1px dashed red;
+	/*border: 1px dashed red;*/
 	width: 100px;
 	height: 150px;
 	float: left;
 }
 .comment div:nth-child(2){
-	border: 1px dashed red;
+	margin-left: 18px;
+  /*  border: 1px dashed red;*/
+    width: 800px;
 	float: left;
 }
 
 .comment div p {
-	border: 1px solid navy;
+	/*border: 1px solid navy;*/
 	text-align: left;
 }
 
@@ -96,14 +127,22 @@ a{
 	font-size: 13px;
 }
 
-.comment div span:nth-child(1) {
+.comment div p:nth-child(1) span:nth-child(1) {
 	font-weight: bold;
 	margin-right: 20px;
 }
 
-.comment div span:nth-child(2){
+.comment div p:nth-child(1)  span:nth-child(2){
 	color: #9B9B9B;
 }
+
+.commentlist span:nth-child(1){
+	color: #26709A;
+}  
+.commentlist span:nth-child(4){
+	
+	color: #9B9B9B;
+}  
 
 .comment  img{
 	
@@ -125,7 +164,7 @@ a{
 }
 
 .docomment{
-	border:1px solid brown;
+	/*border:1px solid brown;*/
 	
 }
 .docomment p{
@@ -151,6 +190,9 @@ a{
 	height: 34px;
 	font-size: 16px;
 	color: white;
+}
+.disabled{
+	color: darkgray;
 }
 
 

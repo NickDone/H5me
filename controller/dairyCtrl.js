@@ -11,9 +11,20 @@ lxdApp.controller('dairyCtrl',['$scope','dairyService',function($scope,dairyServ
 		
 	}
 	
-	$scope.Ilikeit=function(id){
+	$scope.Ilikeit=function(index){
+		//alert("我觉得"+id+"很赞");
+		$scope.dairyData[index].Likers=parseInt($scope.dairyData[index].Likers)+1;
 		
-		alert("我觉得"+id+"很赞");
+		dairyService.ILike($scope,$scope.dairyData[index].id).then(function (data){
+			console.log(data);
+		});
+	}
+	
+	$scope.GetRecommend=function (){
+		dairyService.GetRecommend().then(function (re){
+			$scope.Recommend=re;
+		});
+		
 	}
 	
 	function createPageNumBtn(){
@@ -45,6 +56,8 @@ lxdApp.controller('dairyCtrl',['$scope','dairyService',function($scope,dairyServ
 		});		
 	}	
 		
+		
+	$scope.GetRecommend();
 	getPage(1);
 	
 	//document.writeln('ok');	

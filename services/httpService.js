@@ -56,7 +56,7 @@ lxdApp.service('httpService',['$http','$q','$location','$timeout', '$interval',f
 				defferd.resolve(response);
 			
 		});
-		return deffered.promise;
+		return defferd.promise;
 	}
 	
 	this.put=function(scope,url,postdata){

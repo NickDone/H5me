@@ -12,7 +12,7 @@ lxdApp.config(['$routeProvider',function($routeProvider){
 			templateUrl:'aboutme.html',
 			controller:'aboutmeCtrl'
 		})
-		.when('/dairydetails',{
+		.when('/dairydetails/:id',{
 			templateUrl:'dairydetails.html',
 			controller:'dairydetailsCtrl'
 		})

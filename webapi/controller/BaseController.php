@@ -18,6 +18,16 @@
 			break;
 		case 'post':
 			
+			$controller=$_GET['c'];
+			$controllerName=$controller.'Controller';
+			$method=$_GET['m'];
+			$controllerPath=$controllerName.'.php';
+			require($controllerPath);
+			$ctr=new $controllerName;
+			
+			//获取postdata
+			$postdata=file_get_contents("php://input") ;
+			$ctr->$method($postdata);
 			break;
 	}
 	

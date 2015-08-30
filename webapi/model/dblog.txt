@@ -738,3 +738,324 @@ Unknown column 'parenid' in 'where clause'
 2015-08-27 22:07:31 获取全部记录 select * from comments where replyid=4
 2015-08-27 22:07:31 释放结果集
 2015-08-27 22:07:31 完成整个查询任务,所用时间为1.0140581130981
+2015-08-28 22:23:54 查询 update mydairy set Likers=Likers+1 where id=1
+2015-08-28 22:23:54 释放结果集
+2015-08-28 22:23:54 完成整个查询任务,所用时间为1.1590671539307
+2015-08-28 22:23:58 查询 update mydairy set Likers=Likers+1 where id=1
+2015-08-28 22:23:58 释放结果集
+2015-08-28 22:23:58 完成整个查询任务,所用时间为1.0070581436157
+2015-08-28 22:24:21 查询 update mydairy set Likers=Likers+1 where id=1
+2015-08-28 22:24:21 释放结果集
+2015-08-28 22:24:21 完成整个查询任务,所用时间为1.0190579891205
+2015-08-28 22:41:28 查询 update mydairy set Likers=Likers+1 where id=1
+2015-08-28 22:41:28 释放结果集
+2015-08-28 22:41:28 完成整个查询任务,所用时间为1.0290589332581
+2015-08-28 22:41:31 查询 update mydairy set Likers=Likers+1 where id=1
+2015-08-28 22:41:31 释放结果集
+2015-08-28 22:41:31 完成整个查询任务,所用时间为1.0210590362549
+2015-08-29 09:21:43 查询 update mydairy set Likers=Likers+1 where id=1
+2015-08-29 09:21:43 释放结果集
+2015-08-29 09:21:43 完成整个查询任务,所用时间为1.0220592021942
+2015-08-29 09:21:49 查询 select top 3 * from mydairy where id<=(select top 1 form mydairy where id >=1 order by id
+2015-08-29 09:21:49 Query Error: select top 3 * from mydairy where id<=(select top 1 form mydairy where id >=1 order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3 * from mydairy where id<=(select top 1 form mydairy where id >=1 order by id' at line 1
+2015-08-29 09:21:49 释放结果集
+2015-08-29 09:21:49 完成整个查询任务,所用时间为1.0290589332581
+2015-08-29 09:21:51 查询 select top 3 * from mydairy where id<=(select top 1 form mydairy where id >=1 order by id
+2015-08-29 09:21:51 Query Error: select top 3 * from mydairy where id<=(select top 1 form mydairy where id >=1 order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3 * from mydairy where id<=(select top 1 form mydairy where id >=1 order by id' at line 1
+2015-08-29 09:21:51 释放结果集
+2015-08-29 09:21:51 完成整个查询任务,所用时间为1.0200579166412
+2015-08-29 09:22:18 查询 select top 3 * from mydairy where id<=(select top 1 form mydairy where id >=1 )order by id
+2015-08-29 09:22:18 Query Error: select top 3 * from mydairy where id<=(select top 1 form mydairy where id >=1 )order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3 * from mydairy where id<=(select top 1 form mydairy where id >=1 )order by id' at line 1
+2015-08-29 09:22:18 释放结果集
+2015-08-29 09:22:18 完成整个查询任务,所用时间为1.0190579891205
+2015-08-29 09:22:20 查询 select top 3 * from mydairy where id<=(select top 1 form mydairy where id >=1 )order by id
+2015-08-29 09:22:20 Query Error: select top 3 * from mydairy where id<=(select top 1 form mydairy where id >=1 )order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3 * from mydairy where id<=(select top 1 form mydairy where id >=1 )order by id' at line 1
+2015-08-29 09:22:20 释放结果集
+2015-08-29 09:22:20 完成整个查询任务,所用时间为1.0310590267181
+2015-08-29 09:22:41 查询 select top 3 * from mydairy where id<=(select top 1 form mydairy where id >=1 ) order by id
+2015-08-29 09:22:41 Query Error: select top 3 * from mydairy where id<=(select top 1 form mydairy where id >=1 ) order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3 * from mydairy where id<=(select top 1 form mydairy where id >=1 ) order by id' at line 1
+2015-08-29 09:22:41 释放结果集
+2015-08-29 09:22:41 完成整个查询任务,所用时间为1.0190579891205
+2015-08-29 09:22:45 查询 select top 3 * from mydairy where id<=(select top 1 form mydairy where id >=1 ) order by id
+2015-08-29 09:22:45 Query Error: select top 3 * from mydairy where id<=(select top 1 form mydairy where id >=1 ) order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3 * from mydairy where id<=(select top 1 form mydairy where id >=1 ) order by id' at line 1
+2015-08-29 09:22:45 释放结果集
+2015-08-29 09:22:45 完成整个查询任务,所用时间为1.0120580196381
+2015-08-29 09:23:07 查询 select top 3 * from mydairy where id<=(select top 1 id form mydairy where id >=1 ) order by id
+2015-08-29 09:23:07 Query Error: select top 3 * from mydairy where id<=(select top 1 id form mydairy where id >=1 ) order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3 * from mydairy where id<=(select top 1 id form mydairy where id >=1 ) order by' at line 1
+2015-08-29 09:23:07 释放结果集
+2015-08-29 09:23:07 完成整个查询任务,所用时间为1.0250589847565
+2015-08-29 09:23:10 查询 select top 3 * from mydairy where id<=(select top 1 id form mydairy where id >=1 ) order by id
+2015-08-29 09:23:10 Query Error: select top 3 * from mydairy where id<=(select top 1 id form mydairy where id >=1 ) order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3 * from mydairy where id<=(select top 1 id form mydairy where id >=1 ) order by' at line 1
+2015-08-29 09:23:10 释放结果集
+2015-08-29 09:23:10 完成整个查询任务,所用时间为1.0200579166412
+2015-08-29 09:24:29 查询 select top 3 * from mydairy where id<=(select top 1 id form mydairy where id >1 ) order by id
+2015-08-29 09:24:29 Query Error: select top 3 * from mydairy where id<=(select top 1 id form mydairy where id >1 ) order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3 * from mydairy where id<=(select top 1 id form mydairy where id >1 ) order by ' at line 1
+2015-08-29 09:24:29 释放结果集
+2015-08-29 09:24:29 完成整个查询任务,所用时间为1.023059129715
+2015-08-29 09:24:41 查询 select top 3 * from mydairy where id<=(select top 1 id form mydairy where id >1 ) order by id
+2015-08-29 09:24:41 Query Error: select top 3 * from mydairy where id<=(select top 1 id form mydairy where id >1 ) order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3 * from mydairy where id<=(select top 1 id form mydairy where id >1 ) order by ' at line 1
+2015-08-29 09:24:41 释放结果集
+2015-08-29 09:24:41 完成整个查询任务,所用时间为1.0200579166412
+2015-08-29 09:24:45 查询 select top 3 * from mydairy where id<=(select top 1 id form mydairy where id >1 ) order by id
+2015-08-29 09:24:45 Query Error: select top 3 * from mydairy where id<=(select top 1 id form mydairy where id >1 ) order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3 * from mydairy where id<=(select top 1 id form mydairy where id >1 ) order by ' at line 1
+2015-08-29 09:24:45 释放结果集
+2015-08-29 09:24:45 完成整个查询任务,所用时间为1.0140578746796
+2015-08-29 09:26:11 查询 select top  * from mydairy where id<=(select top 1 id form mydairy where id >1 ) order by id
+2015-08-29 09:26:11 Query Error: select top  * from mydairy where id<=(select top 1 id form mydairy where id >1 ) order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from mydairy where id<=(select top 1 id form mydairy where id >1 ) order by id' at line 1
+2015-08-29 09:26:11 释放结果集
+2015-08-29 09:26:11 完成整个查询任务,所用时间为1.0190579891205
+2015-08-29 09:26:28 查询 select top  * from mydairy where id<=(select id form mydairy where id >1 limit 0 ,1) order by id
+2015-08-29 09:26:28 Query Error: select top  * from mydairy where id<=(select id form mydairy where id >1 limit 0 ,1) order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from mydairy where id<=(select id form mydairy where id >1 limit 0 ,1) order by ' at line 1
+2015-08-29 09:26:28 释放结果集
+2015-08-29 09:26:28 完成整个查询任务,所用时间为1.011057138443
+2015-08-29 09:26:42 查询 select top  * from mydairy where id<=(select id form mydairy where id >1 limit 0 ,1) limit 0,3 order by id
+2015-08-29 09:26:42 Query Error: select top  * from mydairy where id<=(select id form mydairy where id >1 limit 0 ,1) limit 0,3 order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from mydairy where id<=(select id form mydairy where id >1 limit 0 ,1) limit 0,3' at line 1
+2015-08-29 09:26:42 释放结果集
+2015-08-29 09:26:42 完成整个查询任务,所用时间为1.0140581130981
+2015-08-29 09:26:44 查询 select top  * from mydairy where id<=(select id form mydairy where id >1 limit 0 ,1) limit 0,3 order by id
+2015-08-29 09:26:44 Query Error: select top  * from mydairy where id<=(select id form mydairy where id >1 limit 0 ,1) limit 0,3 order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from mydairy where id<=(select id form mydairy where id >1 limit 0 ,1) limit 0,3' at line 1
+2015-08-29 09:26:44 释放结果集
+2015-08-29 09:26:44 完成整个查询任务,所用时间为1.0310590267181
+2015-08-29 09:27:45 查询 select top  * from mydairy where id<=(select id form mydairy where id >1 limit 0 ,1) limit 0,3 order by id
+2015-08-29 09:27:45 Query Error: select top  * from mydairy where id<=(select id form mydairy where id >1 limit 0 ,1) limit 0,3 order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from mydairy where id<=(select id form mydairy where id >1 limit 0 ,1) limit 0,3' at line 1
+2015-08-29 09:27:45 释放结果集
+2015-08-29 09:27:45 完成整个查询任务,所用时间为1.0170578956604
+2015-08-29 09:29:39 查询 select top  * from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3 order by id
+2015-08-29 09:29:39 Query Error: select top  * from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3 order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3' at line 1
+2015-08-29 09:29:39 释放结果集
+2015-08-29 09:29:39 完成整个查询任务,所用时间为1.0200581550598
+2015-08-29 09:29:42 查询 select top  * from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3 order by id
+2015-08-29 09:29:42 Query Error: select top  * from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3 order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3' at line 1
+2015-08-29 09:29:42 释放结果集
+2015-08-29 09:29:42 完成整个查询任务,所用时间为1.0240588188171
+2015-08-29 09:31:29 查询 select * from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3 order by id
+2015-08-29 09:31:29 Query Error: select * from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3 order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id' at line 1
+2015-08-29 09:31:29 释放结果集
+2015-08-29 09:31:29 完成整个查询任务,所用时间为1.0190589427948
+2015-08-29 09:31:33 查询 select * from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3 order by id
+2015-08-29 09:31:33 Query Error: select * from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3 order by id
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id' at line 1
+2015-08-29 09:31:33 释放结果集
+2015-08-29 09:31:33 完成整个查询任务,所用时间为1.0140581130981
+2015-08-29 09:32:20 查询 select * from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3 
+2015-08-29 09:32:20 获取全部记录 select * from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3 
+2015-08-29 09:32:20 释放结果集
+2015-08-29 09:32:20 完成整个查询任务,所用时间为1.0160579681396
+2015-08-29 09:32:22 查询 select * from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3 
+2015-08-29 09:32:22 获取全部记录 select * from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3 
+2015-08-29 09:32:22 释放结果集
+2015-08-29 09:32:22 完成整个查询任务,所用时间为1.0070581436157
+2015-08-29 09:39:29 查询 select * from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3 
+2015-08-29 09:39:29 获取全部记录 select * from mydairy where id<=(select id from mydairy where id >1 limit 0 ,1) limit 0,3 
+2015-08-29 09:39:29 释放结果集
+2015-08-29 09:39:29 完成整个查询任务,所用时间为1.0260589122772
+2015-08-29 09:54:55 查询 select * from mydairy where id<=(select id from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 09:54:55 获取全部记录 select * from mydairy where id<=(select id from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 09:54:55 释放结果集
+2015-08-29 09:54:55 完成整个查询任务,所用时间为1.017058134079
+2015-08-29 09:54:59 查询 select * from mydairy where id<=(select id from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 09:54:59 获取全部记录 select * from mydairy where id<=(select id from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 09:54:59 释放结果集
+2015-08-29 09:54:59 完成整个查询任务,所用时间为1.0180578231812
+2015-08-29 09:55:16 查询 select * from mydairy where id<=(select id from mydairy where id >=4 limit 0 ,1) limit 0,3 
+2015-08-29 09:55:16 获取全部记录 select * from mydairy where id<=(select id from mydairy where id >=4 limit 0 ,1) limit 0,3 
+2015-08-29 09:55:16 释放结果集
+2015-08-29 09:55:16 完成整个查询任务,所用时间为1.0130579471588
+2015-08-29 09:55:19 查询 select * from mydairy where id<=(select id from mydairy where id >=4 limit 0 ,1) limit 0,3 
+2015-08-29 09:55:19 获取全部记录 select * from mydairy where id<=(select id from mydairy where id >=4 limit 0 ,1) limit 0,3 
+2015-08-29 09:55:19 释放结果集
+2015-08-29 09:55:19 完成整个查询任务,所用时间为1.0240578651428
+2015-08-29 09:58:25 查询 select * from mydairy where id<=(select id from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 09:58:25 获取全部记录 select * from mydairy where id<=(select id from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 09:58:25 释放结果集
+2015-08-29 09:58:25 完成整个查询任务,所用时间为1.0150580406189
+2015-08-29 09:58:27 查询 select * from mydairy where id<=(select id from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 09:58:27 获取全部记录 select * from mydairy where id<=(select id from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 09:58:27 释放结果集
+2015-08-29 09:58:27 完成整个查询任务,所用时间为1.0340588092804
+2015-08-29 10:02:27 查询 select * from mydairy where id<=(select id, IFNULL(id,4) from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 10:02:27 Query Error: select * from mydairy where id<=(select id, IFNULL(id,4) from mydairy where id >4 limit 0 ,1) limit 0,3 
+Operand should contain 1 column(s)
+2015-08-29 10:02:27 释放结果集
+2015-08-29 10:02:27 完成整个查询任务,所用时间为1.0120580196381
+2015-08-29 10:02:29 查询 select * from mydairy where id<=(select id, IFNULL(id,4) from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 10:02:29 Query Error: select * from mydairy where id<=(select id, IFNULL(id,4) from mydairy where id >4 limit 0 ,1) limit 0,3 
+Operand should contain 1 column(s)
+2015-08-29 10:02:29 释放结果集
+2015-08-29 10:02:29 完成整个查询任务,所用时间为1.0020570755005
+2015-08-29 10:03:11 查询 select * from mydairy where id<=(select id, 4from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 10:03:11 Query Error: select * from mydairy where id<=(select id, 4from mydairy where id >4 limit 0 ,1) limit 0,3 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id >4 limit 0 ,1) limit 0,3' at line 1
+2015-08-29 10:03:11 释放结果集
+2015-08-29 10:03:11 完成整个查询任务,所用时间为1.0120580196381
+2015-08-29 10:03:14 查询 select * from mydairy where id<=(select id, 4from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 10:03:14 Query Error: select * from mydairy where id<=(select id, 4from mydairy where id >4 limit 0 ,1) limit 0,3 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id >4 limit 0 ,1) limit 0,3' at line 1
+2015-08-29 10:03:14 释放结果集
+2015-08-29 10:03:14 完成整个查询任务,所用时间为1.0140581130981
+2015-08-29 10:03:20 查询 select * from mydairy where id<=(select id, 4 from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 10:03:20 Query Error: select * from mydairy where id<=(select id, 4 from mydairy where id >4 limit 0 ,1) limit 0,3 
+Operand should contain 1 column(s)
+2015-08-29 10:03:20 释放结果集
+2015-08-29 10:03:20 完成整个查询任务,所用时间为1.0120568275452
+2015-08-29 10:03:21 查询 select * from mydairy where id<=(select id, 4 from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 10:03:21 Query Error: select * from mydairy where id<=(select id, 4 from mydairy where id >4 limit 0 ,1) limit 0,3 
+Operand should contain 1 column(s)
+2015-08-29 10:03:21 释放结果集
+2015-08-29 10:03:21 完成整个查询任务,所用时间为1.0290589332581
+2015-08-29 10:03:32 查询 select * from mydairy where id<=(select id, '4' from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 10:03:32 Query Error: select * from mydairy where id<=(select id, '4' from mydairy where id >4 limit 0 ,1) limit 0,3 
+Operand should contain 1 column(s)
+2015-08-29 10:03:32 释放结果集
+2015-08-29 10:03:32 完成整个查询任务,所用时间为1.0240581035614
+2015-08-29 10:03:33 查询 select * from mydairy where id<=(select id, '4' from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 10:03:33 Query Error: select * from mydairy where id<=(select id, '4' from mydairy where id >4 limit 0 ,1) limit 0,3 
+Operand should contain 1 column(s)
+2015-08-29 10:03:33 释放结果集
+2015-08-29 10:03:33 完成整个查询任务,所用时间为1.017058134079
+2015-08-29 10:04:26 查询 select * from mydairy where id<=(select ifnull(id, '4' ) as id from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 10:04:26 获取全部记录 select * from mydairy where id<=(select ifnull(id, '4' ) as id from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 10:04:26 释放结果集
+2015-08-29 10:04:26 完成整个查询任务,所用时间为1.0090579986572
+2015-08-29 10:04:35 查询 select * from mydairy where id<=(select ifnull(id, '4' ) as id from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 10:04:35 获取全部记录 select * from mydairy where id<=(select ifnull(id, '4' ) as id from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 10:04:35 释放结果集
+2015-08-29 10:04:35 完成整个查询任务,所用时间为1.0220580101013
+2015-08-29 10:07:17 查询 select * from mydairy where id<=(select id from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 10:07:17 获取全部记录 select * from mydairy where id<=(select id from mydairy where id >4 limit 0 ,1) limit 0,3 
+2015-08-29 10:07:17 释放结果集
+2015-08-29 10:07:17 完成整个查询任务,所用时间为1.0110578536987
+2015-08-29 10:54:03 查询 update mydairy set Likers=Likers+1 where id=1
+2015-08-29 10:54:03 释放结果集
+2015-08-29 10:54:03 完成整个查询任务,所用时间为1.0350589752197
+2015-08-29 10:54:15 查询 select * from mydairy where id=1
+2015-08-29 10:54:15 获取全部记录 select * from mydairy where id=1
+2015-08-29 10:54:15 查询 select id from mydairy where id<1 limit 0,1
+2015-08-29 10:54:15 获取一条记录 select id from mydairy where id<1 limit 0,1
+2015-08-29 10:54:15 查询 select id from mydairy where id>1 limit 0,1
+2015-08-29 10:54:15 获取一条记录 select id from mydairy where id>1 limit 0,1
+2015-08-29 10:54:15 释放结果集
+2015-08-29 10:54:15 完成整个查询任务,所用时间为1.0190579891205
+2015-08-29 10:54:19 查询 select * from mydairy where id=2
+2015-08-29 10:54:19 获取全部记录 select * from mydairy where id=2
+2015-08-29 10:54:19 查询 select id from mydairy where id<2 limit 0,1
+2015-08-29 10:54:19 获取一条记录 select id from mydairy where id<2 limit 0,1
+2015-08-29 10:54:19 查询 select id from mydairy where id>2 limit 0,1
+2015-08-29 10:54:19 获取一条记录 select id from mydairy where id>2 limit 0,1
+2015-08-29 10:54:19 释放结果集
+2015-08-29 10:54:19 完成整个查询任务,所用时间为1.0320589542389
+2015-08-29 10:54:20 查询 select * from mydairy where id=2
+2015-08-29 10:54:20 获取全部记录 select * from mydairy where id=2
+2015-08-29 10:54:20 查询 select id from mydairy where id<2 limit 0,1
+2015-08-29 10:54:20 获取一条记录 select id from mydairy where id<2 limit 0,1
+2015-08-29 10:54:20 查询 select id from mydairy where id>2 limit 0,1
+2015-08-29 10:54:20 获取一条记录 select id from mydairy where id>2 limit 0,1
+2015-08-29 10:54:20 释放结果集
+2015-08-29 10:54:20 完成整个查询任务,所用时间为1.0350589752197
+2015-08-29 10:54:46 查询 select * from mydairy where id=1
+2015-08-29 10:54:46 获取全部记录 select * from mydairy where id=1
+2015-08-29 10:54:46 查询 select id from mydairy where id<1 limit 0,1
+2015-08-29 10:54:46 获取一条记录 select id from mydairy where id<1 limit 0,1
+2015-08-29 10:54:46 查询 select id from mydairy where id>1 limit 0,1
+2015-08-29 10:54:46 获取一条记录 select id from mydairy where id>1 limit 0,1
+2015-08-29 10:54:46 释放结果集
+2015-08-29 10:54:46 完成整个查询任务,所用时间为1.0160579681396
+2015-08-29 10:54:47 查询 select * from mydairy where id=1
+2015-08-29 10:54:47 获取全部记录 select * from mydairy where id=1
+2015-08-29 10:54:47 查询 select id from mydairy where id<1 limit 0,1
+2015-08-29 10:54:47 获取一条记录 select id from mydairy where id<1 limit 0,1
+2015-08-29 10:54:47 查询 select id from mydairy where id>1 limit 0,1
+2015-08-29 10:54:47 获取一条记录 select id from mydairy where id>1 limit 0,1
+2015-08-29 10:54:47 释放结果集
+2015-08-29 10:54:47 完成整个查询任务,所用时间为1.0300590991974
+2015-08-29 10:54:58 查询 select * from mydairy where id=4
+2015-08-29 10:54:58 获取全部记录 select * from mydairy where id=4
+2015-08-29 10:54:58 查询 select id from mydairy where id<4 limit 0,1
+2015-08-29 10:54:58 获取一条记录 select id from mydairy where id<4 limit 0,1
+2015-08-29 10:54:58 查询 select id from mydairy where id>4 limit 0,1
+2015-08-29 10:54:58 获取一条记录 select id from mydairy where id>4 limit 0,1
+2015-08-29 10:54:58 释放结果集
+2015-08-29 10:54:58 完成整个查询任务,所用时间为1.023059129715
+2015-08-29 10:54:59 查询 select * from mydairy where id=4
+2015-08-29 10:54:59 获取全部记录 select * from mydairy where id=4
+2015-08-29 10:54:59 查询 select id from mydairy where id<4 limit 0,1
+2015-08-29 10:54:59 获取一条记录 select id from mydairy where id<4 limit 0,1
+2015-08-29 10:54:59 查询 select id from mydairy where id>4 limit 0,1
+2015-08-29 10:54:59 获取一条记录 select id from mydairy where id>4 limit 0,1
+2015-08-29 10:54:59 释放结果集
+2015-08-29 10:54:59 完成整个查询任务,所用时间为1.0200579166412
+2015-08-29 11:01:50 查询 select * from mydairy where id=4
+2015-08-29 11:01:50 获取全部记录 select * from mydairy where id=4
+2015-08-29 11:01:50 查询 select id from mydairy where id<4 limit 0,1 order by id desc
+2015-08-29 11:01:50 Query Error: select id from mydairy where id<4 limit 0,1 order by id desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc' at line 1
+2015-08-29 11:01:50 释放结果集
+2015-08-29 11:01:50 完成整个查询任务,所用时间为1.0300590991974
+2015-08-29 11:01:54 查询 select * from mydairy where id=4
+2015-08-29 11:01:54 获取全部记录 select * from mydairy where id=4
+2015-08-29 11:01:54 查询 select id from mydairy where id<4 limit 0,1 order by id desc
+2015-08-29 11:01:54 Query Error: select id from mydairy where id<4 limit 0,1 order by id desc
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id desc' at line 1
+2015-08-29 11:01:54 释放结果集
+2015-08-29 11:01:54 完成整个查询任务,所用时间为1.0070581436157
+2015-08-29 11:02:33 查询 select * from mydairy where id=4
+2015-08-29 11:02:33 获取全部记录 select * from mydairy where id=4
+2015-08-29 11:02:33 查询 select id from mydairy where id<4 order by id desc limit 0,1 
+2015-08-29 11:02:33 获取一条记录 select id from mydairy where id<4 order by id desc limit 0,1 
+2015-08-29 11:02:33 查询 select id from mydairy where id>4 limit 0,1
+2015-08-29 11:02:33 获取一条记录 select id from mydairy where id>4 limit 0,1
+2015-08-29 11:02:33 释放结果集
+2015-08-29 11:02:33 完成整个查询任务,所用时间为1.1100628376007
+2015-08-29 11:02:36 查询 select * from mydairy where id=4
+2015-08-29 11:02:36 获取全部记录 select * from mydairy where id=4
+2015-08-29 11:02:36 查询 select id from mydairy where id<4 order by id desc limit 0,1 
+2015-08-29 11:02:36 获取一条记录 select id from mydairy where id<4 order by id desc limit 0,1 
+2015-08-29 11:02:36 查询 select id from mydairy where id>4 limit 0,1
+2015-08-29 11:02:36 获取一条记录 select id from mydairy where id>4 limit 0,1
+2015-08-29 11:02:36 释放结果集
+2015-08-29 11:02:36 完成整个查询任务,所用时间为1.0220580101013
+2015-08-30 15:27:13 查询 select * from mydairy where id=4
+2015-08-30 15:27:13 获取全部记录 select * from mydairy where id=4
+2015-08-30 15:27:13 查询 select id from mydairy where id<4 order by id desc limit 0,1 
+2015-08-30 15:27:13 获取一条记录 select id from mydairy where id<4 order by id desc limit 0,1 
+2015-08-30 15:27:13 查询 select id from mydairy where id>4 limit 0,1
+2015-08-30 15:27:13 获取一条记录 select id from mydairy where id>4 limit 0,1
+2015-08-30 15:27:13 释放结果集
+2015-08-30 15:27:13 完成整个查询任务,所用时间为1.0950629711151
+2015-08-30 15:27:18 释放结果集
+2015-08-30 15:27:18 完成整个查询任务,所用时间为1.0270578861237
+2015-08-30 21:18:40 查询 select id,Title,Abstract,CommentCount,Readers,Likers,UpdateDate from mydairy where IsRecommend=1 limit 0,4
+2015-08-30 21:18:40 获取全部记录 select id,Title,Abstract,CommentCount,Readers,Likers,UpdateDate from mydairy where IsRecommend=1 limit 0,4
+2015-08-30 21:18:40 释放结果集
+2015-08-30 21:18:40 完成整个查询任务,所用时间为1.0230588912964
+2015-08-30 21:18:43 查询 select id,Title,Abstract,CommentCount,Readers,Likers,UpdateDate from mydairy where IsRecommend=1 limit 0,4
+2015-08-30 21:18:43 获取全部记录 select id,Title,Abstract,CommentCount,Readers,Likers,UpdateDate from mydairy where IsRecommend=1 limit 0,4
+2015-08-30 21:18:43 释放结果集
+2015-08-30 21:18:43 完成整个查询任务,所用时间为1.0320589542389
+2015-08-30 21:18:53 查询 select id,Title,Abstract,CommentCount,Readers,Likers,UpdateDate from mydairy where IsRecommend=1 limit 0,4
+2015-08-30 21:18:53 获取全部记录 select id,Title,Abstract,CommentCount,Readers,Likers,UpdateDate from mydairy where IsRecommend=1 limit 0,4
+2015-08-30 21:18:53 释放结果集
+2015-08-30 21:18:53 完成整个查询任务,所用时间为1.004056930542
+2015-08-30 21:18:54 查询 select id,Title,Abstract,CommentCount,Readers,Likers,UpdateDate from mydairy where IsRecommend=1 limit 0,4
+2015-08-30 21:18:54 获取全部记录 select id,Title,Abstract,CommentCount,Readers,Likers,UpdateDate from mydairy where IsRecommend=1 limit 0,4
+2015-08-30 21:18:54 释放结果集
+2015-08-30 21:18:54 完成整个查询任务,所用时间为1.0270578861237
