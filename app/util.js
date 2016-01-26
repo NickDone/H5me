@@ -4,4 +4,4 @@ lxdApp.constant("appColors",["#CB9998","#FEFF99","#FE9900"
 				,"#02979B","#FF6600","#0066CA"
 				,"#FFFF00","#339933","#FE0032"
 				])
-.constant("ServerIp","127.0.0.1");
+.constant("ServerIp","localhost");

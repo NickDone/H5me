@@ -18,6 +18,38 @@ body{
 	background:black;
 }
 
+#menu ul{
+	/*border: 1px solid red;*/
+    height: 100%;
+
+	margin: 0px 0px  0px  0px ;
+
+}
+
+#menu ul li{
+	cursor: pointer;
+	font-size: 18pt;
+	color: #FCFCFC;
+	list-style: none;
+	display: inline;
+	padding:0px 40px 22px 40px;
+	/*border: 1px solid red;*/
+    vertical-align: middle;
+	margin: 0px 0px  0px  0px ;
+	height: 100%;
+}
+
+#menu ul li:hover
+{
+	background: white;
+	color: black;
+}
+
+.selected{
+	background:#b9def0;
+	color: black;
+}
+
 a{
 	text-decoration: none;
 	

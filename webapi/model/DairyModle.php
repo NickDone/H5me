@@ -42,6 +42,11 @@
 			
 			$result['pre']=$db->get_one($sql2);
 			$result['next']=$db->get_one($sql3);
+
+
+			$sql="update mydairy set Readers=Readers+1 where id=".$id;
+			$db->query($sql);
+
 			return $result;
 			
 		}

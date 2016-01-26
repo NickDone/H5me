@@ -82,7 +82,8 @@ lxdApp.controller('dairydetailsCtrl',['$scope','dairyService','$routeParams','$l
 		//alert(comment+$scope.dairyDetails.id);
 		var name=prompt("我如何称呼您-最多7字","Marker");
 			name=name.substring(0,7);
-		var rpinfo={"content":comment,"parentid":$scope.dairyDetails.id,"replyid":0,"time":"","nicky":name};
+		var headPic=parseInt(Math.random()*7)+".jpg";
+		var rpinfo={"content":comment,"parentid":$scope.dairyDetails.id,"replyid":0,"time":"","nicky":name,"headPic":headPic};
 		
 		dairyService.Reply($scope,rpinfo).then(function (re){
 			rpinfo.reply=[];

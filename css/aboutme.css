@@ -4,11 +4,12 @@
 	width:1080px;
 	height:960px;
 	
-	background-image: -webkit-linear-gradient(left,#FFFFFF -30%,#00C6FC 50%,#FFFFFF 180% );  
-	background-image:-moz-linear-gradient(left,#FFFFFF -30%,#00C6FC 50%,#FFFFFF 180% );  
-	background-image: -ms-linear-gradient(left,#FFFFFF -30%,#00C6FC 50%,#FFFFFF 180% );  
-    background-image: linear-gradient(left,#FFFFFF -30%,#00C6FC 50%,#FFFFFF 180% );  
-	
+    /*background-image: -webkit-linear-gradient(left,#FFFFFF -300%,#99E8FE 50%,#FFFFFF 180% );*/
+    /*background-image:-moz-linear-gradient(left,#FFFFFF -300%,#99E8FE 50%,#FFFFFF 180% );*/
+    /*background-image: -ms-linear-gradient(left,#FFFFFF -300%,#99E8FE 50%,#FFFFFF 180% );*/
+    /*background-image: linear-gradient(left,#FFFFFF -300%,#99E8FE 50%,#FFFFFF 180% );*/
+
+	background: white;
 }
 
 #top{
@@ -32,7 +33,7 @@
 #myinfo li{
 	font-family:"黑体";
 	color:white;	
-	border:1px solid  transparent;
+	border:1px solid  slategray;
 	list-style:none;
 	height:60px;
 	width:90%;

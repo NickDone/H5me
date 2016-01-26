@@ -9,26 +9,41 @@
 		<script src="vendor/jquery/jquery-1.10.2.min.js" ></script>
 		<script src="vendor/angular/angular.js" ></script>
 		<script src="vendor/angular/angular-route.min.js"></script>
-		
+
+		<script src="controller/lixiaodongCtrl.js"></script>
+		<script type="text/javascript" src="app/util.js"></script>
+		<script src="route/route.js"></script>
 	</head>
 
 	
 	<body>
-		<ul id="menu">
-						
-		</ul>
-		
-		<div ng-view style="border:1px solid transparent;">
-				
+		<div id="menu" ng-controller="lixiaodongCtrl" >
+			<ul >
+				<li ng-click="select(0)" ng-class="{selected:CurIndex==0}">
+					日志
+				</li>
+				<li ng-class="{selected:CurIndex==1}">
+					相册
+				</li>
+				<li ng-class="{selected:CurIndex==2}">
+					留言
+				</li>
+				<li  ng-click="select(3)" ng-class="{selected:CurIndex==3}">
+					关于
+				</li>
+			</ul>
 		</div>
-		
+
+
+		<div ng-view style="border:1px solid transparent;">
+
+		</div>
+
 	</body>
 
-	<script src="controller/lixiaodongCtrl.js"></script>
-	<script type="text/javascript" src="app/util.js">
-		
-	</script>
-	<script src="route/route.js"></script>   
+
+
+
 	
 	<script type="text/javascript" src="services/httpService.js"></script>
     <script type="text/javascript" src="services/aboutmeService.js"></script>   

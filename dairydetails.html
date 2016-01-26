@@ -58,7 +58,7 @@
 			
 			<div class=comment ng-repeat='da in dairyComment'>
 				<div>
-					<p><span><img src="images/headpic/7.jpg"></span><span>{{da.nicky}}</span></p>
+					<p><span><img src={{da.headPic==""?"images/headpic/0.jpg":"images/headpic/"+da.headPic}}></span><span>{{da.nicky}}</span></p>
 				</div>
 				<div >
 					<p>
